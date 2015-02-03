@@ -1,0 +1,112 @@
+body {
+  font-family:'Inconsolata';
+  background: yellow;
+  color: black;
+  font-size: 26px;
+}
+
+h1 {
+  font-family:'Nova Mono';
+  font-size: 6.849em;
+  text-align: left;
+  margin-top: 25px;
+  line-height: 125%;
+  text-transform: uppercase;
+}
+
+.sad-face {
+  font-family:'Nova Mono';
+  font-size: 8.07em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -160px;
+  margin-bottom: 0px;
+}
+
+.title-description {
+  text-align: justify;
+  line-height: 140%;
+  margin-top: auto;
+  margin-bottom: -15px;
+  font-family:'Inconsolata';
+  font-size: 35.5px;
+}
+
+.sad-face-2 {
+  font-family:'Nova Mono';
+  font-size: 8.07em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -15px;
+}
+ 
+h2 {
+  font-family:'Nova Mono';
+  font-size: 3em;
+  text-align: left;
+  text-decoration: underline;
+  margin-top: auto;
+}
+
+img {
+  width: 700px;
+  display: block;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+ol {
+  margin-top: -40px;
+  padding: 0px;
+  line-height: 135%;
+  text-align: justify;
+}
+
+ul{
+  margin-top: -40px;
+  line-height: 135%;
+  padding: 0px;
+  text-align: justify;
+ }
+
+ .video {
+  font-family:'Nova Mono';
+  font-size: 47px;
+  text-align: center;
+  padding: 5px;
+  border-style: solid;
+  border-width: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    background-color: aqua;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.sad-face-3 {
+  font-family:'Nova Mono';
+  font-size: 8.07em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -45px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto; 
+}
