@@ -1,0 +1,54 @@
+body {
+  font-family:'Karla';
+  color: black;
+  font-size: 28px;
+}
+
+header{
+	line-height: 140%;
+}
+
+.title{
+	font-family:'Karla';
+	font-weight: 700;
+	margin-top: 75px;
+	margin-bottom: -100px;
+}
+
+h2{
+  font-size: 6.25em;
+  text-align: left;
+  color: blue;
+}
+
+a:link {
+    text-decoration: underline;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    background-color: blue;
+}
+a:active {
+    text-decoration: none;
+}
+
+.projects{
+	font-family:'Karla';
+	font-size: 28px;
+  	text-align: right;
+  	line-height: 200%;
+  	margin-top: -10px;
+}
+
+.info{
+	text-align: left;
+	font-size: 16px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto; 
+}
