@@ -13,6 +13,7 @@ header{
 	font-weight: 700;
 	margin-top: 75px;
 	margin-bottom: -80px;
+  text-align: left;
 }
 
 h2{
@@ -40,6 +41,7 @@ a:active {
 	font-size: 26px;
   	text-align: right;
   	line-height: 210%;
+    margin-bottom: 75px;
 }
 
 .info{
