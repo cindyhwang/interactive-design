@@ -39,9 +39,9 @@ a:active {
 .projects{
 	font-family:'Karla';
 	font-size: 26px;
-  	text-align: right;
-  	line-height: 210%;
-    margin-bottom: 75px;
+  text-align: right;
+  line-height: 210%;
+  margin-bottom: 75px;
 }
 
 .info{
