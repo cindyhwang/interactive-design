@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- saved from url=(0167)http://s0.2mdn.net/ads/richmedia/studio/pv2/35274126/20150108120331983/pushdown.html?liveEnvironment=true&e=5&renderingType=2&leftOffset=0&topOffset=0&c=V2Yv3KPfPM&t=1 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <script src="Enabler_01_47.js" type="text/javascript"></script>
+    <script type="text/javascript" charset="UTF-8" src="jquery.min(1).js"></script><script type="text/javascript" charset="UTF-8" src="970x90.js"></script><link rel="stylesheet" href="970x90.css" type="text/css"></head>
+    <body>
+        <div id="pushdown_wrapper">
+        	<!-- Collapsed Conent -->
+            <div id="collapsed_wrapper"></div>
+            <!-- Expand Content -->
+            <div id="expanded_wrapper">
+                <div id="close_button"></div>
+                <div id="carousel_wrapper">
+                    <div id="slideshow_wrapper">
+                        <div id="arrows" class="hidden">
+                            <div id="poster_arrow_left" class="poster_arrow"></div>
+                            <div id="poster_arrow_right" class="poster_arrow"></div>
+                        </div>
+                        <div id="image_holder"></div>
+                    </div>
+                    <div id="carousel_footer">
+                        <div id="outer_thumb_wrapper">
+                            <div id="thumb_arrow_left" class="thumb_arrow hidden"></div>
+                            <div id="thumb_wrapper">
+                                <div id="thumb_holder"></div>
+                            </div>
+                            <div id="thumb_arrow_right" class="thumb_arrow hidden"></div>
+                        </div>
+                        <div id="exit_more_stories"></div>
+                    </div>
+                </div>
+                <div id="background_exit"></div>
+            </div>
+        </div>
+
+        <script>
+
+        if (Enabler.isInitialized()) {
+            enablerInitHandler();
+        } else {
+            Enabler.addEventListener(studio.events.StudioEvent.INIT,enablerInitHandler);
+        }
+
+        function enablerInitHandler() {
+            Enabler.loadScript(Enabler.getUrl('//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'), polite_load);
+        }
+
+        function polite_load() {
+            if (Enabler.isPageLoaded()) {
+                pageLoadedHandler();
+            } else {
+            Enabler.addEventListener(studio.events.StudioEvent.PAGE_LOADED,
+                pageLoadedHandler);
+            }
+        }
+
+        function pageLoadedHandler() {
+            Enabler.loadScript('970x90.js');
+        }
+
+        </script>
+
+    
+
+</body></html>

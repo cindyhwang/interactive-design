@@ -1,0 +1,20 @@
+
+@font-face {
+    font-family: 'Apercu Bold';
+    src: url('http://f.fontdeck.com/f/1/elREblJUUEoABxKy5dK0E4qlhSrXpbbdK7USKN5Lg9nB1WvkQ4393OvarZRGVHGXM90GkA74a/Ckl8nklUz8iiWJqVL9H48hOP9725CceXDdGqJcgS/C4gwzi6KOdaTlo6UWpKk67SNAXpGIIcRm/rGSPTomrLCCg9orYf2j7KkIkg/M+CuO0vrP.eot');
+    src: url('http://f.fontdeck.com/f/1/elREblJUUEoABxKy5dK0E4qlhSrXpbbdK7USKN5Lg9nB1WvkQ4393OvarZRGVHGXM90GkA74a/Ckl8nklUz8iiWJqVL9H48hOP9725CceXDdGqJcgS/C4gwzi6KOdaTlo6UWpKk67SNAXpGIIcRm/rGSPTomrLCCg9orYf2j7KkIkg/M+CuO0vrP.eot?') format('embedded-opentype'),
+    url('http://f.fontdeck.com/f/1/elREblJUUEoABxKy5dK0E4qlhSrXpbbdK7USKN5Lg9nB1WvkQ4393OvarZRGVHGXM90GkA74a/Ckl8nklUz8iiWJqVL9H48hOP9725CceXDdGqJcgS/C4gwzi6KOdaTlo6UWpKk67SNAXpGIIcRm/rGSPTomrLCCg9orYf2j7KkIkg/M+CuO0vrP.woff') format('woff'),
+    url('http://f.fontdeck.com/f/1/elREblJUUEoABxKy5dK0E4qlhSrXpbbdK7USKN5Lg9nB1WvkQ4393OvarZRGVHGXM90GkA74a/Ckl8nklUz8iiWJqVL9H48hOP9725CceXDdGqJcgS/C4gwzi6KOdaTlo6UWpKk67SNAXpGIIcRm/rGSPTomrLCCg9orYf2j7KkIkg/M+CuO0vrP.ttf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apercu Regular';
+    src: url('http://f.fontdeck.com/f/1/eC1Sd1BMcnIAAFjeNec0ZWv2cJwCAS4eLhRa7sa/XvPV8fxU96a3fFO/R4Fd/jG77vh/KEHeYUuyCIo56oMCaLkXrUFMs3CXpT1FCB6OYF9NmUFznnhNwZAFGd6oDCVqajV87ffubjpUHOnMjjlgh/bMpkeQk141QX9z253jmwyPEw.eot');
+    src: url('http://f.fontdeck.com/f/1/eC1Sd1BMcnIAAFjeNec0ZWv2cJwCAS4eLhRa7sa/XvPV8fxU96a3fFO/R4Fd/jG77vh/KEHeYUuyCIo56oMCaLkXrUFMs3CXpT1FCB6OYF9NmUFznnhNwZAFGd6oDCVqajV87ffubjpUHOnMjjlgh/bMpkeQk141QX9z253jmwyPEw.eot?') format('embedded-opentype'),
+    url('http://f.fontdeck.com/f/1/eC1Sd1BMcnIAAFjeNec0ZWv2cJwCAS4eLhRa7sa/XvPV8fxU96a3fFO/R4Fd/jG77vh/KEHeYUuyCIo56oMCaLkXrUFMs3CXpT1FCB6OYF9NmUFznnhNwZAFGd6oDCVqajV87ffubjpUHOnMjjlgh/bMpkeQk141QX9z253jmwyPEw.woff') format('woff'),
+    url('http://f.fontdeck.com/f/1/eC1Sd1BMcnIAAFjeNec0ZWv2cJwCAS4eLhRa7sa/XvPV8fxU96a3fFO/R4Fd/jG77vh/KEHeYUuyCIo56oMCaLkXrUFMs3CXpT1FCB6OYF9NmUFznnhNwZAFGd6oDCVqajV87ffubjpUHOnMjjlgh/bMpkeQk141QX9z253jmwyPEw.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
