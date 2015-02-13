@@ -1,0 +1,177 @@
+body {
+	
+	max-width: 764px;
+	margin-left: auto;
+  	margin-right: auto;
+  	font-size: 10px;
+  	color: blue;
+  
+ 
+}
+
+
+
+.how-to-portal-left {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+	margin-bottom: 42px;
+	position: relative;
+	
+
+	
+
+}
+
+.how-to-portal-right {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+	margin-bottom: 42px;
+	position: relative;
+
+}
+
+h1 {
+font-family:'Playfair Display', serif;
+  font-size: 17.85em;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 25px;
+  line-height: 110%;
+  text-transform: uppercase;
+  font-style: italic;
+  text-decoration: underline;
+  margin-bottom: 50px;
+
+}
+
+.finger {
+	position: fixed;
+	left: 20px;
+	font-size: 10em;
+	top: -25px;
+}
+
+.finger-2 {
+	position: fixed;
+	right: 20px;
+	font-size: 10em;
+	bottom: -25px;
+}
+
+.intro {
+	font-family:'Playfair Display', serif;
+	font-size: 3.05em;
+  font-weight: 400;
+  text-align: left;
+   font-style: italic;
+     line-height: 150%;
+      margin-bottom: 60px;
+      text-align: justify;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	color: blue;
+}
+
+a:hover {
+	color: red;
+}
+
+a:active {
+	color: red;
+}
+
+.how-to {
+	font-family:'Playfair Display', serif;
+	font-size: 32em;
+  font-weight: 400;
+  text-align: right;
+   font-style: italic;
+     line-height: 90%;
+      margin-bottom: 42px;
+       margin-top: -45px;
+       letter-spacing: -10px;
+
+}
+
+.how-to-2 {
+	font-family:'Playfair Display', serif;
+	font-size: 32em;
+  font-weight: 400;
+  text-align: left;
+   font-style: italic;
+     line-height: 90%;
+        margin-bottom: 42px;
+       margin-top: -45px;
+       letter-spacing: -10px;
+  }
+    
+
+  .how-big {
+	font-family:'Playfair Display', serif;
+	font-size: 32em;
+  font-weight: 400;
+  text-align: center;
+   font-style: italic;
+   line-height: 90%;
+    margin-top: -45px;
+     letter-spacing: -10px;
+   
+}
+
+  .to-big {
+	font-family:'Playfair Display', serif;
+	font-size: 57em;
+  font-weight: 400;
+  line-height: 90%;
+  text-align: left;
+   font-style: italic;
+   margin-top: -20px;
+    letter-spacing: -25px;
+    position: absolute;
+  
+
+
+}
+
+.pencil-big {
+	position: relative; 
+		font-family:'Playfair Display', serif;
+	font-size: 38em;
+  font-weight: 400;
+  line-height: 90%;
+  font-style: italic;
+  text-align: left;
+  color: blue;
+ 	 z-index: -1;
+ 	 top: 70px;
+ 	letter-spacing: 15px;
+}
+
+
+
+
+.footer {
+
+	font-family:'Playfair Display', serif;
+	font-size: 2.15em;
+  font-weight: 400;
+  text-align: left;
+   font-style: italic;
+   margin-top: 250px;
+   margin-bottom: 75px;
+
+
+   
+  
+ }
+
+
+
+     
