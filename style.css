@@ -19,6 +19,7 @@ h2{
   font-size: 6.25em;
   text-align: left;
   color: blue;
+
 }
 
 a:link {
@@ -46,6 +47,8 @@ a:active {
 .info{
 	text-align: left;
 	font-size: 16px;
+  position: fixed;
+  bottom: 50px;
 }
 
 .container {
