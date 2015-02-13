@@ -89,7 +89,7 @@ a:active {
 
 .how-to {
 	font-family:'Playfair Display', serif;
-	font-size: 32em;
+	font-size: 31em;
   font-weight: 400;
   text-align: right;
    font-style: italic;
@@ -102,7 +102,7 @@ a:active {
 
 .how-to-2 {
 	font-family:'Playfair Display', serif;
-	font-size: 32em;
+	font-size: 31em;
   font-weight: 400;
   text-align: left;
    font-style: italic;
@@ -115,7 +115,7 @@ a:active {
 
   .how-big {
 	font-family:'Playfair Display', serif;
-	font-size: 32em;
+	font-size: 31em;
   font-weight: 400;
   text-align: center;
    font-style: italic;
@@ -127,15 +127,15 @@ a:active {
 
   .to-big {
 	font-family:'Playfair Display', serif;
-	font-size: 57em;
+	font-size: 57.5em;
   font-weight: 400;
   line-height: 90%;
-  text-align: left;
+  text-align: center;
    font-style: italic;
-   margin-top: -20px;
     letter-spacing: -25px;
     position: absolute;
-  
+margin-top: -25px;
+
 
 
 }
@@ -150,8 +150,9 @@ a:active {
   text-align: left;
   color: blue;
  	 z-index: -1;
- 	 top: 70px;
- 	letter-spacing: 15px;
+ 	 top: 75px;
+ letter-spacing: 15px;
+
 }
 
 
@@ -164,7 +165,7 @@ a:active {
   font-weight: 400;
   text-align: left;
    font-style: italic;
-   margin-top: 250px;
+   margin-top: 255px;
    margin-bottom: 75px;
 
 
