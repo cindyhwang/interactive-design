@@ -1,0 +1,70 @@
+
+
+
+
+h1 {
+  font-family:'Anonymous Pro';
+  font-size: 38px;
+  font-weight: 700;
+  text-align: left;
+  left: 58px;
+  top: 25px;
+   position: fixed;
+   color: lime;
+}
+
+.info {
+	margin-left: 50px;
+	font-family:'Anonymous Pro';
+	  font-weight: 400;
+	  font-size: 14px;
+	  line-height: 135%;
+	 top: 120px;
+	  position: relative;
+    letter-spacing: 0.25px;
+	 
+
+}
+
+h2 {
+  font-family:'Anonymous Pro';
+  font-size: 15em;
+  font-weight: 400;
+  right: 240px;
+  position: fixed;
+color: lime;
+z-index: -1;
+margin-top: -110px;
+
+}
+
+
+.text {
+  font-family:'Anonymous Pro';
+  font-size: 19px;
+  font-weight: 400;
+text-align: justify;
+  line-height: 175%;
+  position: relative;
+  top: 230px;
+
+}
+
+.author {
+	
+	font-family:'Anonymous Pro';
+	  font-weight: 400;
+	  font-size: 14px;
+	  line-height: 135%;
+	  position: relative;
+	  top: 250px;
+	  margin-bottom: 60px;
+    text-align: justify;
+	 
+
+}
+
+.container {
+	width: 600px;
+  margin-left: 595px;
+}

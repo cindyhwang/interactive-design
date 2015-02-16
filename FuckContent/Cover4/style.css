@@ -1,0 +1,25 @@
+
+
+
+img {
+	position: fixed;
+	top: 25px;
+	left: 25px;
+	height: 15%;
+}
+
+h1 {
+	font-weight: normal;
+	text-align: right;
+	margin-right: 25px;
+	margin-top: 195px;
+	margin-bottom: -500px;
+	font-family: 'Pressura',sans-serif;
+	letter-spacing: .25px;
+	color: #ef4135;
+	font-size: 22em;
+	line-height: 105%;
+	text-decoration: underline;
+
+
+}

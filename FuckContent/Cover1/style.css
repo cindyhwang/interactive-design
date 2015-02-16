@@ -1,0 +1,89 @@
+a:link {
+    text-decoration: none;
+    color: black;
+    
+    
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: lime;
+    
+    
+}
+a:active {
+    text-decoration: none;
+}
+
+
+
+h1 {
+  font-family:'Anonymous Pro';
+  font-size: 76px;
+  font-weight: 700;
+  text-align: left;
+  left: 58px;
+ bottom: -15px;
+   position: fixed;
+   color: lime;
+
+}
+
+.info {
+	margin-left: 50px;
+	font-family:'Anonymous Pro';
+	  font-weight: 400;
+	  font-size: 14px;
+	  line-height: 130%;
+	 top: 120px;
+	  position: relative;
+    letter-spacing: .25px;
+	 
+
+}
+
+h2 {
+  font-family:'Anonymous Pro';
+  font-size: 39.5em;
+  font-weight: 400;
+ right: 63px;
+  position: fixed;
+color: lime;
+z-index: -1;
+margin-top: -270px;
+
+}
+
+
+
+.text {
+  font-family:'Anonymous Pro';
+  font-size: 19px;
+  font-weight: 400;
+text-align: justify;
+  line-height: 175%;
+  position: relative;
+  top: 285px;
+  text-align: center;
+
+
+}
+
+.author {
+	
+	font-family:'Anonymous Pro';
+	  font-weight: 400;
+	  font-size: 14px;
+	  line-height: 130%;
+	  position: relative;
+	  top: 250px;
+	  margin-bottom: 60px;
+	 
+
+}
+
+.container {
+	width: 600px;
+  margin-left: 595px;
+}

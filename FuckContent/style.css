@@ -6,14 +6,17 @@ body {
 
 header{
 	line-height: 140%;
+  position: fixed;
+  top: 75px;
 }
 
 .title{
 	font-family:'Karla';
 	font-weight: 700;
-	margin-top: 75px;
-	margin-bottom: -80px;
+	
+	margin-bottom: -85px;
   text-align: left;
+
 }
 
 h2{
@@ -42,12 +45,10 @@ a:active {
   text-align: right;
   line-height: 210%;
   margin-bottom: 75px;
+  margin-top: 300px;
 }
 
-.info{
-	text-align: left;
-	font-size: 16px;
-}
+
 
 .container {
   width: 600px;
