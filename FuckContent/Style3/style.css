@@ -16,7 +16,7 @@ h1 {
   right: 150px;
   top: 15px;
    position: fixed;
-   color: #FF00FF;
+   color: navy;
   z-index: -1;
 
     letter-spacing: 5px;
@@ -24,8 +24,8 @@ h1 {
 }
 
 .info {
- color: #FF00FF;
-	text-align: right;
+ color: navy;
+ 	text-align: right;
 	font-family:'Montserrat Alternates';
 	 
 	
@@ -50,7 +50,7 @@ h2 {
  
   margin-top: 148px;
   
-   color: #000080;
+   color: magenta;
   
 letter-spacing: 47.5px;
     
@@ -65,7 +65,7 @@ h3 {
  
   top: 303px;
   right: 110px;
-   color: #000080;
+   color: magenta;
   
 letter-spacing: 47.5px;
 
@@ -93,12 +93,24 @@ letter-spacing: 47.5px;
 	  font-size: 18px;
 	 letter-spacing: .5px;
 	  position: relative;
-	  margin-top: 50px;
+	  margin-top: 15px;
 	  margin-bottom: 65px;
-     color: #00008B;
-  line-height: 150%;
-   
-	 
+     color: navy;
+  line-height: 150%; 
+
+}
+
+.xxxx {
+  
+  font-family:'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 15px;
+   letter-spacing: 10px;
+    position: relative;
+    margin-top: 50px;
+
+     color: #FF00FF;
+  
 
 }
 

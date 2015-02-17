@@ -1,15 +1,15 @@
 a:link {
-  color: white;
+  color: magenta;
     text-decoration: none;
     
   }
 
 a:visited {
-    color: white;
+    color: magenta;
 }
 a:hover {
 
-    color: #FF00FF;
+    color: white;
     
     
 }
@@ -21,7 +21,7 @@ a:active {
 
 
 body {
-  background: #000080;;
+  background: #000080;
 }
 
 .case {
@@ -42,7 +42,7 @@ h1 {
   right: 150px;
   top: 15px;
    position: fixed;
-   color: #FF00FF;
+   color: white;
   z-index: -1;
 
     letter-spacing: 5px;
@@ -50,7 +50,7 @@ h1 {
 }
 
 .info {
- color: #FF00FF;
+ color: white;
 	text-align: right;
 	font-family:'Montserrat Alternates';
 	position: fixed;
@@ -65,18 +65,18 @@ h1 {
 
 
 
-   .date-written {
- color: #FF00FF;
+   .about {
+ color: white;
   text-align: center;
   font-family:'Montserrat Alternates';
 
 position: fixed;
-    margin-top: 205px;
+    margin-top: 208px;
     font-size: 50px;
   font-weight: 700;
-   letter-spacing: 2px;
+   letter-spacing: 5px;
    text-transform: uppercase;
-   left: 570px;
+   left: 150px;
  }
 
 
@@ -95,7 +95,7 @@ h2 {
  
   margin-top: 148px;
   
-   color: white;
+   color: magenta;
   
 letter-spacing: 47.5px;
     
@@ -110,7 +110,7 @@ h3 {
  
   top: 303px;
   right: 110px;
-   color: white;
+   color: magenta;
   margin-right: 100px;
 letter-spacing: 47.5px;
 margin-top: 137px;
@@ -124,9 +124,9 @@ h4 {
   
   text-align: left;
  
-  top: 33px;
- margin-bottom: 212px;
-   color: white;
+  top: 28px;
+ margin-bottom: 213.13px;
+   color: magenta;
   position: relative;
 letter-spacing: 47.5px;
 
