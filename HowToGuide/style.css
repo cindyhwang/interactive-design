@@ -49,26 +49,26 @@ font-family:'Playfair Display', serif;
 .finger {
 	position: fixed;
 	left: 20px;
-	font-size: 10em;
-	top: -25px;
+	font-size: 9em;
+	top: -20px;
 }
 
 .finger-2 {
 	position: fixed;
 	right: 20px;
-	font-size: 10em;
-	bottom: -25px;
+	font-size: 9em;
+	bottom: -20px;
 }
 
 .intro {
 	font-family:'Playfair Display', serif;
-	font-size: 3.05em;
+	font-size: 3em;
   font-weight: 400;
-  text-align: left;
+ letter-spacing: .25px;
    font-style: italic;
      line-height: 150%;
       margin-bottom: 60px;
-      text-align: justify;
+    
 }
 
 a:link {
@@ -161,12 +161,13 @@ margin-top: -25px;
 .footer {
 
 	font-family:'Playfair Display', serif;
-	font-size: 2.15em;
+	font-size: 2.12em;
   font-weight: 400;
   text-align: left;
    font-style: italic;
    margin-top: 255px;
    margin-bottom: 70px;
+   letter-spacing: .25px;
 
 
    
