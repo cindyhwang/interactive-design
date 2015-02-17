@@ -38,8 +38,8 @@ h1 {
   font-size: 50px;
   font-weight: 700;
   text-align: left;
-  left: 150px;
-  right: 150px;
+  left: 154px;
+  
   top: 15px;
    position: fixed;
    color: white;
@@ -76,7 +76,7 @@ position: fixed;
   font-weight: 700;
    letter-spacing: 5px;
    text-transform: uppercase;
-   left: 150px;
+   left: 156px;
  }
 
 
@@ -97,7 +97,7 @@ h2 {
   
    color: magenta;
   
-letter-spacing: 47.5px;
+letter-spacing: 47px;
     
 
 }
@@ -112,7 +112,7 @@ h3 {
   right: 110px;
    color: magenta;
   margin-right: 100px;
-letter-spacing: 47.5px;
+letter-spacing: 47px;
 margin-top: 137px;
 
     
@@ -128,7 +128,7 @@ h4 {
  margin-bottom: 213.13px;
    color: magenta;
   position: relative;
-letter-spacing: 47.5px;
+letter-spacing: 47px;
 
     
 
