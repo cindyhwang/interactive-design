@@ -36,7 +36,7 @@ a:hover {
     background-color: blue;
 }
 a:active {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .projects{

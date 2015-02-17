@@ -1,13 +1,15 @@
 a:link {
+  color: white;
     text-decoration: none;
-    color: magenta}
+    
+  }
 
 a:visited {
-    color: magenta;
+    color: white;
 }
 a:hover {
-  text-decoration: underline;
-    color: white;
+
+    color: #FF00FF;
     
     
 }
@@ -67,12 +69,12 @@ h1 {
  color: #FF00FF;
   text-align: center;
   font-family:'Montserrat Alternates';
-  
+
 position: fixed;
     margin-top: 205px;
     font-size: 50px;
   font-weight: 700;
-   letter-spacing: 5px;
+   letter-spacing: 2px;
    text-transform: uppercase;
    left: 570px;
  }
