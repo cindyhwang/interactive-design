@@ -1,0 +1,315 @@
+img {
+  max-height: 200px;
+  position: fixed;
+  left: 57px;
+  bottom:57px;
+}
+
+
+header{
+   width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family:'Big Caslon';
+  font-size: 25px;
+  font-weight: normal;
+  text-align: left;
+  letter-spacing: 1.5px;
+  margin-top: 2px;
+
+
+  
+
+}
+
+.info {
+	margin-left: 50px;
+	font-family:'Anonymous Pro';
+	  font-weight: 400;
+	  font-size: 14px;
+	  line-height: 135%;
+	 top: 120px;
+	  position: relative;
+    letter-spacing: .25px;
+	 
+
+}
+
+h2 {
+  font-family:'Big Caslon';
+  font-size: 25px;
+  font-weight: normal;
+  text-align: right;
+  letter-spacing: 1.5px;
+  margin-top: 2px;
+
+}
+
+
+.text-1 {
+  font-family:'Big Caslon';
+  font-size: 25px;
+  font-weight: 400;
+
+  line-height: 165%;
+  position: relative;
+  top: 100px;
+  z-index: -1;
+  letter-spacing: 1.5px;
+
+}
+
+.text-2 {
+  font-family:'Big Caslon';
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 165%;
+  position: relative;
+  top: 100px;
+  z-index: -1;
+  letter-spacing: 1px;
+
+}
+
+.text-3 {
+  font-family:'Big Caslon';
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 165%;
+  position: relative;
+  margin-top: 135px;
+  z-index: -1;
+  letter-spacing: 1px;
+
+}
+
+.text-4 {
+  font-family:'Big Caslon';
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 165%;
+  position: relative;
+  z-index: -1;
+  letter-spacing: .85px;
+
+}
+
+.text-5 {
+  font-family:'Big Caslon';
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 165%;
+  position: relative;
+  z-index: -1;
+  letter-spacing: 1.5px;
+
+}
+
+.text-6 {
+  font-family:'Big Caslon';
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 165%;
+  position: relative;
+  z-index: -1;
+  letter-spacing: 2px;
+
+}
+
+.text-7 {
+  font-family:'Big Caslon';
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 165%;
+  position: relative;
+  z-index: -1;
+  letter-spacing: 1.25px;
+
+}
+
+.text-8 {
+  font-family:'Big Caslon';
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 165%;
+  position: relative;
+  z-index: -1;
+  letter-spacing: 1.55px;
+
+}
+
+.text-9 {
+  font-family:'Big Caslon';
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 165%;
+  position: relative;
+  z-index: -1;
+  letter-spacing: .6px;
+
+}
+
+.text-10 {
+  font-family:'Big Caslon';
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 160%;
+  position: relative;
+  z-index: -1;
+  letter-spacing: .8px;
+
+}
+
+.text-11 {
+  font-family:'Big Caslon';
+  font-size: 75px;
+  font-weight: 400;
+  line-height: 155%;
+  position: relative;
+  z-index: -1;
+  letter-spacing: .75;
+
+}
+
+.text-12 {
+  font-family:'Big Caslon';
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 150%;
+  position: relative;
+  z-index: -1;
+  letter-spacing: 1.25px;
+
+}
+
+.text-13 {
+  font-family:'Big Caslon';
+  font-size: 85px;
+  font-weight: 400;
+  line-height: 145%;
+  position: relative;
+  z-index: -1;
+  letter-spacing: 2px;
+
+}
+
+.text-14 {
+  font-family:'Big Caslon';
+  font-size: 90px;
+  font-weight: 400;
+
+  line-height: 140%;
+  position: relative;
+  z-index: -1;
+  letter-spacing: 1.4px;
+
+}
+
+.author {
+	
+	font-family:'Big Caslon';
+  font-size: 25px;
+  font-weight: 400;
+
+  line-height: 165%;
+  position: relative;
+  margin-top: 0px;
+  z-index: -1;
+  letter-spacing: 1.5px;
+
+	 
+
+}
+
+.date {
+  
+  font-family:'Big Caslon';
+  font-size: 25px;
+  font-weight: 400;
+
+  line-height: 165%;
+  position: relative;
+  margin-top: 16px;
+  z-index: -1;
+  letter-spacing: 1.5px;
+  margin-bottom: 200px;
+   
+
+}
+
+
+
+
+.rectangle-1 {
+ background: yellow;
+    width: 100%;
+    height: 25px;
+    top: 0px;
+    position: fixed;
+    margin-left: -8px;
+}
+
+.rectangle-2 {
+ 
+    background: yellow;
+    width: 3000px;
+    height: 50px;
+    margin-top: 55px;
+    margin-left: -25px;
+
+
+   
+   
+  }
+
+  .rectangle-3 {
+ 
+      background: yellow;
+    width: 3000px;
+    height: 75px;
+    margin-top: -18px;
+    margin-left: -25px;
+   
+  }
+
+  .rectangle-4 {
+ 
+      background: yellow;
+    width: 3000px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: -25px;
+   
+  }
+
+  .rectangle-5 {
+ 
+    background: yellow;
+    width: 3000px;
+    height: 125px;
+    margin-top: -22px;
+   
+    margin-left: -25px;
+   
+  }
+
+  .rectangle-6 {
+ 
+    background: yellow;
+    width: 100%;
+    height: 150px;
+    bottom: 0px;
+    position: fixed;
+    margin-left: -8px;
+   
+  }
+
+
+
+  .container {
+  width: 700px;
+  margin: 0 auto;
+}
+

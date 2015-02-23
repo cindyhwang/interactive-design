@@ -1,0 +1,97 @@
+img {
+  max-height: 200px;
+  position: fixed;
+  left: 57px;
+  bottom:57px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+    
+    
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+    
+    
+}
+a:active {
+    text-decoration: underline;
+}
+
+
+
+h1 {
+   font-family:'Anonymous Pro';
+  font-size: 38px;
+  font-weight: 700;
+  text-align: left;
+  left: 57px;
+  top: 25px;
+   position: fixed;
+   color: lime;
+
+}
+
+.info {
+	margin-left: 50px;
+	font-family:'Anonymous Pro';
+	  font-weight: 400;
+	  font-size: 14px;
+	  line-height: 130%;
+	 top: 120px;
+	  position: relative;
+    letter-spacing: .25px;
+	 
+
+}
+
+h2 {
+  font-family:'Anonymous Pro';
+  font-size: 38.2em;
+  font-weight: 400;
+ right: 70px;
+  position: fixed;
+color: lime;
+z-index: -1;
+margin-top: -155px;
+
+}
+
+
+
+.text {
+  font-family:'Anonymous Pro';
+  font-size: 19px;
+  font-weight: 400;
+text-align: justify;
+  line-height: 175%;
+  position: relative;
+  top: 285px;
+  text-align: center;
+
+
+}
+
+.author {
+	
+	font-family:'Anonymous Pro';
+	  font-weight: 400;
+	  font-size: 14px;
+	  line-height: 130%;
+	  position: relative;
+	  top: 250px;
+	  margin-bottom: 60px;
+	 
+
+}
+
+.container {
+	width: 600px;
+  margin-left: 595px;
+}

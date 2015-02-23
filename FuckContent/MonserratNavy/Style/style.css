@@ -1,0 +1,134 @@
+.case {
+  margin-right: 150px;
+  margin-left: 150px;
+
+
+}
+
+
+
+h1 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: left;
+  left: 154px;
+  
+  top: 15px;
+   position: fixed;
+   color: navy;
+  z-index: -1;
+
+    letter-spacing: 5px;
+
+}
+
+.info {
+ color: navy;
+ 	text-align: right;
+	font-family:'Montserrat Alternates';
+	 margin-right: -5px;
+	
+    margin-top: -30px;
+    font-size: 50px;
+  font-weight: 700;
+	 letter-spacing: 5px;
+   text-transform: uppercase;
+   
+	   /*padding-top: 2px;
+    padding-bottom: 2px;
+    border-style: solid;
+    border-width: 2px;*/]]
+
+}
+
+h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 83px;
+  
+  text-align: center;
+ 
+  margin-top: 148px;
+  
+   color: magenta;
+  
+letter-spacing: 47px;
+    
+
+}
+
+h3 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 83px;
+  
+  text-align: right;
+ 
+  top: 303px;
+  right: 111px;
+   color: magenta;
+  
+letter-spacing: 47px;
+z-index: -1;
+    position: fixed;
+
+}
+
+
+.text {
+ font-family: 'Crimson Text', serif;
+  font-size: 24.35px;
+  font-weight: 400;
+  color: #000080;
+  line-height: 160%;
+  text-align: left;
+  margin-top: 35px;
+  letter-spacing: .25px;
+
+}
+
+.author {
+	
+	font-family:'Crimson Text', serif;
+	  font-weight: 400;
+	  font-size: 18px;
+	 letter-spacing: .5px;
+	  position: relative;
+	  margin-top: 15px;
+	  
+     color: navy;
+  line-height: 130%; 
+
+}
+
+.date {
+  
+  font-family:'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 18px;
+   letter-spacing: .5px;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 65px;
+     color: navy;
+  line-height: 130%; 
+
+}
+
+.xxxx {
+  
+  font-family:'Crimson Text', serif;
+    font-weight: 400;
+    font-size: 15px;
+   letter-spacing: 10px;
+    position: relative;
+    margin-top: 50px;
+
+     color: #FF00FF;
+  
+
+}
+
+.container {
+	width: 700px;
+  margin-left: 150px;
+}
