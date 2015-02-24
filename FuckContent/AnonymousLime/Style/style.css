@@ -34,11 +34,11 @@ h2 {
   font-family:'Anonymous Pro';
   font-size: 15em;
   font-weight: 400;
-  right: 240px;
+  right: 238px;
   position: fixed;
 color: lime;
 z-index: -1;
-margin-top: -110px;
+margin-top: -90px;
 
 }
 
@@ -71,5 +71,6 @@ text-align: justify;
 
 .container {
 	width: 600px;
-  margin-left: 595px;
+  float: right;
+  margin-right: 50px;
 }
