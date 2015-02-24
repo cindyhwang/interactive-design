@@ -9,7 +9,7 @@ a:visited {
 }
 a:hover {
 
-    color: white;
+    color: #F8F8FF;
     
     
 }
@@ -42,7 +42,7 @@ h1 {
   
   top: 15px;
    position: fixed;
-   color: white;
+   color: #F8F8FF;
   z-index: -1;
 
     letter-spacing: 5px;
@@ -50,7 +50,7 @@ h1 {
 }
 
 .info {
- color: white;
+ color: #F8F8FF;
 	text-align: right;
 	font-family:'Montserrat Alternates';
 	position: fixed;
@@ -66,7 +66,7 @@ h1 {
 
 
    .about {
- color: white;
+ color: #F8F8FF;
   text-align: center;
   font-family:'Montserrat Alternates';
 
@@ -128,40 +128,9 @@ h4 {
  margin-bottom: 213.13px;
    color: magenta;
   position: relative;
-letter-spacing: 47px;
-
-    
-
+letter-spacing: 47px; 
 }
 
-
-.text {
- font-family: 'Crimson Text', serif;
-  font-size: 25px;
-  font-weight: 400;
-  color: #00008B;
-  line-height: 160%;
- 
-  margin-top: 35px;
-  
-
-}
-
-.author {
-	
-	font-family:'Crimson Text', serif;
-	  font-weight: 400;
-	  font-size: 18px;
-	 letter-spacing: .5px;
-	  position: relative;
-	  margin-top: 50px;
-	  margin-bottom: 65px;
-     color: #00008B;
-  line-height: 150%;
-   
-	 
-
-}
 
 .container {
 	width: 700px;

@@ -2,7 +2,10 @@
   margin-right: 150px;
   margin-left: 150px;
 
+}
 
+body {
+  background:#F8F8FF;
 }
 
 
@@ -121,7 +124,7 @@ z-index: -1;
     font-size: 15px;
    letter-spacing: 10px;
     position: relative;
-    margin-top: 50px;
+    margin-top: 40px;
 
      color: #FF00FF;
   
