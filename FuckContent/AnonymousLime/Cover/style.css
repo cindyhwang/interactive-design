@@ -1,3 +1,67 @@
+a.menu:link {
+    text-decoration: none;
+    color: black;
+    
+    
+}
+a.menu:visited {
+    color: black;
+}
+a.menu:hover {
+    color: blue;
+    
+    
+    
+}
+a.menu:active {
+    text-decoration: none;
+   color: blue;
+}
+
+.links {
+   font-size: 16px;
+   text-align: center;
+   margin-top: 23px;
+   line-height: 250%;
+}
+
+#icon, #icon-active {
+    
+
+    position: fixed;
+    top: 11px;
+    right: 17px;
+    font-size: 28px;
+    font-family: 'Andale Mono';
+   
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 100;
+
+}
+
+#menu {
+    position: fixed;
+    cursor: default;
+    line-height: 1em;
+    text-align: left;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 30vh;
+    background: white;
+    visibility: hidden;
+    color: black;
+    z-index: 10;
+   
+}
+
+#icon:hover #menu {
+    visibility: visible;
+    color: blue;
+  
+}
+
 img {
   max-height: 200px;
   position: fixed;

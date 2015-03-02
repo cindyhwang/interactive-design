@@ -1,3 +1,71 @@
+.menu:link {
+    text-decoration: none;
+    color: black;
+    
+    
+}
+a.menu:visited {
+    color: black;
+}
+a.menu:hover {
+    color: blue;
+    
+    
+    
+}
+a.menu:active {
+    text-decoration: none;
+   color: blue;
+}
+
+.links {
+   font-size: 16px;
+   text-align: center;
+   margin-top: 23px;
+   line-height: 250%;
+}
+
+#icon, #icon-active {
+    
+
+    position: fixed;
+    top: 11px;
+    right: 17px;
+    font-size: 28px;
+    font-family: 'Andale Mono';
+   
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 10;
+
+}
+
+#menu {
+    position: fixed;
+    cursor: default;
+    line-height: 1em;
+    text-align: left;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 30vh;
+    background: white;
+    visibility: hidden;
+    color: black;
+    z-index: 10;
+   
+}
+
+#icon:hover #menu {
+    visibility: visible;
+    color: blue;
+  
+}
+
+body {
+  margin: 0;
+}
+
 img {
   max-height: 200px;
   position: fixed;
@@ -248,16 +316,16 @@ h2 {
     height: 25px;
     top: 0px;
     position: fixed;
-    margin-left: -8px;
+   
 }
 
 .rectangle-2 {
  
     background: yellow;
-    width: 3000px;
+    width: 100%;
     height: 50px;
     margin-top: 55px;
-    margin-left: -25px;
+   
 
 
    
@@ -267,31 +335,31 @@ h2 {
   .rectangle-3 {
  
       background: yellow;
-    width: 3000px;
+    width: 100%;
     height: 75px;
     margin-top: -18px;
-    margin-left: -25px;
+ 
    
   }
 
   .rectangle-4 {
  
       background: yellow;
-    width: 3000px;
+    width: 100%;
     height: 100px;
     margin-top: 30px;
-    margin-left: -25px;
+  
    
   }
 
   .rectangle-5 {
  
     background: yellow;
-    width: 3000px;
+    width: 100%;
     height: 125px;
     margin-top: -22px;
    
-    margin-left: -25px;
+  
    
   }
 
@@ -302,8 +370,7 @@ h2 {
     height: 150px;
     bottom: 0px;
     position: fixed;
-    margin-left: -8px;
-   
+       
   }
 
 

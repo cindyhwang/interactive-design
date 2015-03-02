@@ -22,6 +22,7 @@ font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sa
 
 a:link{
 	text-decoration: none;
+	color: white;
 }
 
 a:visited {
@@ -47,7 +48,87 @@ color: aqua;
 
 }
 
+a.menu:link {
+    text-decoration: none;
+    color: black;
+    
+    
+}
+a.menu:visited {
+    color: black;
+}
+a.menu:hover {
+    color: blue;
+    
+    
+    
+}
+a.menu:active {
+    text-decoration: none;
+   color: blue;
+}
+
+.links {
+   font-size: 16px;
+   text-align: center;
+   margin-top: 23px;
+   line-height: 250%;
+}
+
+#icon, #icon-active {
+    
+
+    position: fixed;
+    top: 11px;
+    right: 17px;
+    font-size: 28px;
+    font-family: 'Andale Mono';
+   
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 10000;
+
+}
+
+#menu {
+    position: fixed;
+    cursor: default;
+    line-height: 1em;
+    text-align: left;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 30vh;
+    background: white;
+    visibility: hidden;
+    color: black;
+    z-index: 10;
+   
+}
+
+#icon:hover #menu {
+    visibility: visible;
+    color: blue;
+  
+}
+
 </style>
+
+				<div id="icon">
+    &#9460;
+    <div id="menu">
+        <div id="icon-active">&#9460;</div>
+        <div class="links">
+        
+       	<a href="http://cindyhwang.github.io/interactive-design/FuckContent/Hazlitt/Cover/index.html" class="menu">Previous</a><br>
+       	<a href="http://cindyhwang.github.io/interactive-design/FuckContent/MontserratNavy/Cover/index.html" class="menu">Next</a><br>
+       		<a href="http://medium.com" class="menu">{Source}</a><br>
+       			<a href="http://cindyhwang.github.io/interactive-design/FuckContent/Homepage5/index.html" class="menu">Home</a>
+
+       
+       	</div>
+       </div>
+   </div>
 
 <body>
 <div class="metabar u-clearfix js-metabar metabar--top metabar--white metabar--postArticle is-withCollectionLogo" style=""><div class="metabar-block metabar-left u-alignLeft"><a href="https://medium.com/" alt="Homepage" data-log-event="home" class="siteNav-logo"><span class="icon icon--logoM"></span></a><span class="metabar-divider metabar-divider--first u-showOnMobile"></span><span class="postMetaInline postMetaInline--avatar u-showOnMobile"><a class="link" title="Go to Matter" href="https://medium.com/matter?source=avatarTopMetabar-lo_a103ba51525d-bcc38c8f6edf" data-source="avatarTopMetabar-lo_a103ba51525d-bcc38c8f6edf"><img src="./index_files/1-Pr4CiPNL0HVDAUsq7agsIg.png" class="avatar-image avatar-image--icon avatar-image--roundedRectangle" alt="Matter"></a></span></div><div class="metabar-block metabar-center"></div></div>

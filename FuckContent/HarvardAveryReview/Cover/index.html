@@ -40,11 +40,27 @@ Website by Nothing in Common LLC
   <link rel="stylesheet" href="file:///Users/CindyH/Documents/Interactive%20Design/interactive-design/FuckContent/AveryReview/normalize.css">
   <link rel="stylesheet" href="file:///Users/CindyH/Documents/Interactive%20Design/interactive-design/FuckContent/AveryReview/style.css">
 </head>
+
+<div id="icon">
+    &#9460;
+    <div id="menu">
+        <div id="icon-active">&#9460;</div>
+        <div class="links">
+        
+        <a href="http://cindyhwang.github.io/interactive-design/FuckContent/Grafik/Cover/index.html" class="menu">Previous</a><br>
+        <a href="http://cindyhwang.github.io/interactive-design/FuckContent/HarvardDesignMagazine/Cover/index.html" class="menu">Next</a><br>
+           <a href="http://averyreview.com/" class="menu">{Source}</a><br>
+            <a href="http://cindyhwang.github.io/interactive-design/FuckContent/HomePage5/index.html" class="menu">Home</a> 
+
+       
+        </div>
+       </div>
+   </div>
+
+
+
 <body id="main-content" class="bg-default single single-post postid-3433 single-format-standard bg-45 article" data-source="base.twig">
-<div class="toggle">
-<img src="./index_files/toggle.svg">
-<div class="line">
-</div>
+
 <div class="line">
 </div>
 <div class="line">
@@ -154,7 +170,74 @@ a:hover {
 a:active {
     text-decoration: underline;
   color: #FFAD5C;
-}</style>
+}
+
+  a.menu:link {
+    text-decoration: none;
+    color: black;
+    
+    
+}
+a.menu:visited {
+    color: black;
+}
+a.menu:hover {
+    color: blue;
+    text-decoration: none;
+    
+    
+    
+}
+a.menu:active {
+    text-decoration: none;
+   color: blue;
+}
+
+.links {
+   font-size: 16px;
+   text-align: center;
+   margin-top: 25px;
+   line-height: 250%;
+}
+
+#icon, #icon-active {
+    
+
+    position: fixed;
+    top: 10px;
+    right: 17px;
+    font-size: 28px;
+    font-family: 'Andale Mono';
+   
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 500;
+
+}
+
+#menu {
+    position: fixed;
+    cursor: default;
+    line-height: 1em;
+    text-align: left;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 30vh;
+    background: white;
+    visibility: hidden;
+    color: black;
+    z-index: 10;
+   
+}
+
+#icon:hover #menu {
+    visibility: visible;
+    color: blue;
+    z-index: 100;
+  
+}
+</style>
     
 
  <div class="article-wrapper wrapper-loaded"> 

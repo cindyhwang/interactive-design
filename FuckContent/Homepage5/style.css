@@ -1,0 +1,303 @@
+.title {
+  transform: rotate(270deg);
+  
+  position: absolute;
+  
+  bottom: 148px;
+   font-size: 16px;
+   font-family: 'Andale Mono'; 
+   left: -40px;
+
+
+}
+
+.essay {
+  transform: rotate(90deg);
+
+  position: absolute;
+  top: 176px;
+   
+   font-size: 16px;
+   font-family: 'Andale Mono'; 
+   right: -63px;
+}
+
+.brackets {
+  display: block;
+  position: fixed;
+  bottom: 56px;
+width: 100%;
+   left: 0;
+   right: 0;
+   text-align: center;
+  font-size: 16px;
+   font-family: 'Andale Mono';
+   
+}
+
+.F {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  width: 116px;
+
+}
+
+
+
+.F a span {display: none;}
+
+.F a:hover span {
+  display: block;
+   position: fixed;
+   bottom: 55px; 
+   color: black; 
+   font-size: 16px;
+   font-family: 'Andale Mono'; 
+   width: 100%;
+   left: 0;
+   right: 0;
+ text-align: center;
+
+
+ }
+
+
+
+h1.one {
+  font-family: 'Anonymous Pro';
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100%;
+  margin-bottom: -25px;
+  text-align: center;
+  margin-top: 35px;
+
+}
+
+h1.two {
+ font-family: 'Lobster', cursive;
+  font-weight: 400;
+  font-size: 95px;
+  line-height: 103%;
+   margin-bottom: -25px;
+   text-align: center;
+   margin-top: 35px;
+   margin-right: 10px;
+
+}
+
+h1.three {
+  font-family: 'Big Caslon';
+  font-weight: 400;
+  font-size: 95px;
+  line-height: 105%;
+   margin-bottom: -25px;
+   text-align: center;
+   margin-top: 35px;
+
+}
+
+h1.four {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 82px;
+line-height: 118%;
+ margin-bottom: -25px;
+ text-align: center;
+ margin-top: 35px;
+}
+
+h1.five {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
+  font-size: 95px;
+line-height: 100%;
+ margin-bottom: -25px;
+ text-align: right;
+ text-align: center;
+ margin-top: 35px;
+}
+
+h1.six {
+ font-family: 'Astloch', cursive;
+  font-weight: 700;
+  font-size: 95px;
+line-height: 100%;
+ margin-bottom: -25px;
+ text-align: right;
+ text-align: center;
+}
+
+h1.seven {
+  
+  font-family: 'Arvo', serif;
+  font-weight: 700;
+  font-size: 94px;
+line-height: 105%;
+margin-bottom: -25px;
+ text-align: right;
+ text-align: center;
+}
+
+h1.eight {
+  font-family: 'Nova Cut', cursive;
+  font-weight: 700;
+  font-size: 95px;
+line-height: 100%;
+margin-bottom: -25px;
+ text-align: right;
+ text-align: center;
+}
+
+h1.nine {
+ 
+  font-family: 'Sansita One', cursive;
+  font-weight: 400;
+  font-size: 105px;
+line-height: 80%;
+ margin-bottom: -25px;
+ text-align: right;
+ text-align: center;
+
+}
+
+h1.ten {
+  font-family: 'Codystar', cursive;
+  font-weight: 700;
+  font-size: 95px;
+line-height: 100%;
+ margin-bottom: -25px;
+ text-align: right;
+ text-align: center;
+}
+
+h1.eleven {
+
+ font-family: 'Limelight', cursive;
+  font-weight: 700;
+  font-size: 92px;
+line-height: 115%;
+ margin-bottom: -25px;
+ text-align: right;
+ text-align: center;
+}
+
+h1.twelve {
+ font-family: 'Baskerville', serif;
+  font-weight: 400;
+  font-size: 95px;
+line-height: 100%;
+margin-bottom: -25px;
+ text-align: right;
+ text-align: center;
+}
+
+h1.thirteen {
+  
+    font-family: 'Keania One', cursive;
+  font-weight: 400;
+  font-size: 95px;
+line-height: 100%;
+ margin-bottom: -25px;
+ text-align: right;
+ text-align: center;
+}
+
+h1.fourteen {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 700;
+  font-size: 95px;
+line-height: 100%;
+ margin-bottom: -25px;
+ text-align: right;
+ text-align: center;
+}
+
+h1.fifteen {
+font-family: 'Averia Serif Libre', cursive;
+  font-weight: 700;
+  font-size: 102px;
+line-height: 90%;
+ margin-bottom: -25px;
+ text-align: right;
+ text-align: center;
+}
+
+h1.sixteen {
+ 
+  font-family: 'Oldenburg', cursive;
+  font-weight: 700;
+  font-size: 94px;
+line-height: 100%;
+ margin-bottom: -25px;
+ text-align: right;
+ text-align: center;
+}
+
+h1.seventeen {
+
+  font-family: 'Sirin Stencil', cursive;
+  font-weight: 400;
+  font-size: 105px;
+line-height: 55%;
+ margin-bottom: -25px;
+ text-align: right;
+ text-align: center;
+}
+
+h1.eighteen {
+ font-family: 'Bangers', cursive;
+  font-weight: 400;
+  font-size: 100px;
+line-height: 88%;
+margin-bottom: -25px;
+ text-align: right;
+ text-align: center;
+ margin-right: 20px;
+
+}
+
+h1.nineteen {
+  
+     font-family: 'UnifrakturMaguntia', cursive;
+  font-weight: 400;
+  font-size: 95px;
+line-height: 100%;
+margin-bottom: -25px;
+ text-align: right;
+ text-align: center;
+ margin-right: 10px;
+}
+
+h1.twenty {
+    font-family: 'Expletus Sans', cursive;
+  font-weight: 700;
+  font-size: 102px;
+line-height: 100%;
+margin-bottom: -25px;
+ text-align: right;
+ text-align: center;
+}
+
+
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: blue;
+}
+a:active {
+    text-decoration: none;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto; 
+}
