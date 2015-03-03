@@ -21,7 +21,7 @@ a.menu:active {
 .links {
    font-size: 16px;
    text-align: center;
-   margin-top: 23px;
+   margin-top: 20px;
    line-height: 250%;
 }
 
@@ -29,8 +29,8 @@ a.menu:active {
     
 
     position: fixed;
-    top: 11px;
-    right: 17px;
+    top: 10px;
+    right: 15px;
     font-size: 28px;
     font-family: 'Andale Mono';
    
@@ -48,7 +48,7 @@ a.menu:active {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 30vh;
+    height: 29vh;
     background: white;
     visibility: hidden;
     color: black;
