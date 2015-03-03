@@ -60,9 +60,90 @@ a:hover {
 
 }
 
+    a.menu:link {
+    text-decoration: none;
+    color: black;
+    border-bottom: 0px;
+    
+    
+}
+a.menu:visited {
+    color: black;
+}
+a.menu:hover {
+    color: blue;
+    text-decoration: none;
+    
+    
+    
+}
+a.menu:active {
+    text-decoration: none;
+   color: blue;
+}
+
+.links {
+   font-size: 16px;
+   text-align: center;
+   margin-top: 23px;
+   line-height: 250%;
+}
+
+#icon, #icon-active {
+    
+
+    position: fixed;
+    top: 12px;
+    right: 17px;
+    font-size: 28px;
+    font-family: 'Andale Mono';
+   
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 100;
+
+}
+
+#menu {
+    position: fixed;
+    cursor: default;
+    line-height: 1em;
+    text-align: left;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 30vh;
+    background: white;
+    visibility: hidden;
+    color: black;
+    z-index: 10;
+   
+}
+
+#icon:hover #menu {
+    visibility: visible;
+    color: blue;
+  
+}
+
 	</style>
 
-	
+	<div id="icon">
+    &#9460;
+    <div id="menu">
+        <div id="icon-active">&#9460;</div>
+        <div class="links">
+        
+        <a href="http://cindyhwang.github.io/interactive-design/FuckContent/NYTimes/Cover/index.html" class="menu">Previous</a><br>
+        <a href="http://cindyhwang.github.io/interactive-design/FuckContent/OKReal/Cover/index.html" class="menu">Next</a><br>
+              <a href="http://newyorker.com/" class="menu">{Source}</a><br>
+            <a href="http://cindyhwang.github.io/interactive-design/FuckContent/Homepage5/index.html" class="menu">Home</a>
+
+       
+        </div>
+       </div>
+   </div>
+
 	<body>
 		<br>
 		<a href="http://cindyhwang.github.io/interactive-design/FuckContent/NewYorker/Style/index.html"><h1>FUCK CONTENT</h1></a>

@@ -47,10 +47,10 @@ Website by Nothing in Common LLC
         <div id="icon-active">&#9460;</div>
         <div class="links">
         
-        <a href="http://cindyhwang.github.io/interactive-design/FuckContent/Grafik/Cover/index.html" class="menu">Previous</a><br>
-        <a href="http://cindyhwang.github.io/interactive-design/FuckContent/HarvardDesignMagazine/Cover/index.html" class="menu">Next</a><br>
-           <a href="http://averyreview.com/" class="menu">{Source}</a><br>
-            <a href="http://cindyhwang.github.io/interactive-design/FuckContent/HomePage5/index.html" class="menu">Home</a> 
+        <a href="http://cindyhwang.github.io/interactive-design/FuckContent/Grafik/Cover/index.html" class="item">Previous</a><br>
+        <a href="http://cindyhwang.github.io/interactive-design/FuckContent/HarvardDesignMagazine/Cover/index.html" class="item">Next</a><br>
+           <a href="http://harvardlawreview.org/" class="item">{Source 1}</a> + <a href="http://averyreview.com/" class="item">{Source 2}</a><br>
+            <a href="http://cindyhwang.github.io/interactive-design/FuckContent/Homepage5/index.html" class="item">Home</a> 
 
        
         </div>
@@ -75,13 +75,15 @@ progress::-webkit-progress-value{background-color:#F5A76F}
 progress::-moz-progress-bar{background-color:transparent}
 .article-body sup{font-size:12px;vertical-align:baseline;display:inline;position:relative;top:-.8em;margin-right:2px;padding:4px;opacity:.8;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";filter:alpha(opacity=80);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:20px;height:5px;margin-left:5px;font-weight:bold;border-bottom:2px solid #F5A76F}
 @media (max-width: 480px) and (min-width: 320px) {.article-mast{border-top: 4px solid #F5A76F;}}
+
+
 </style>
 
 <div id="load" style="display: none;"></div>
 <header class="header site-width" data-swiftype-index="false">
             
                 <h1 class="hdr-logo">
-                    <a class="hdr-logo-link" href="http://harvardlawreview.org/" title="Harvard Law Review" rel="home" target="_blank">
+                    <a class="hdr-logo-link" href="http://harvardlawreview.org/" title="Harvard Law Review" rel="home">
                         <img class="hdr-logo-img" alt="Harvard Law Review" src="./index_files/hlr-logo.svg">
                                                 <img class="hdr-logo-img-wide" alt="Harvard Law Review" src="./index_files/hlr-logo-wide.svg">
                         <span class="hdr-logo-txt">Harvard Law Review</span>
@@ -172,23 +174,23 @@ a:active {
   color: #FFAD5C;
 }
 
-  a.menu:link {
+  a.item:link {
     text-decoration: none;
     color: black;
     
     
 }
-a.menu:visited {
+a.item:visited {
     color: black;
 }
-a.menu:hover {
+a.item:hover {
     color: blue;
     text-decoration: none;
     
     
     
 }
-a.menu:active {
+a.item:active {
     text-decoration: none;
    color: blue;
 }
@@ -196,7 +198,7 @@ a.menu:active {
 .links {
    font-size: 16px;
    text-align: center;
-   margin-top: 25px;
+   margin-top: 23px;
    line-height: 250%;
 }
 
@@ -237,6 +239,10 @@ a.menu:active {
     z-index: 100;
   
 }
+
+body {
+  height: 100%;
+}
 </style>
     
 
@@ -263,33 +269,7 @@ a.menu:active {
   </header> <!-- /article-hdr -->
          
                 
-        <!-- Article Body -->
-                <div class="article-body">
 
-          <!-- Article Meta -->
-                       <!-- /l-article-meta -->
-           
-
-          <!-- Article Text -->
-                     <!-- /article-txt -->
-
-          <!-- Article Footer -->
-
-<footer id="footer" class="ftr site-width">
-            
-
- <!-- /ftr-body -->
-
-<p class="ftr-copyright" data-swiftype-index="false"><span class="txt">Harvard Law Review</span> <span class="numbers">©2015</span> </p>
-        </footer>
-                     <!-- /article-ftr -->
-           
-          
-        </div> <!-- /article-body -->
-
-      </section> <!-- /article-content -->
-
-    </article> <!-- /post-type-post -->
 
      
   </div> <!-- content-wrapper -->
@@ -306,10 +286,10 @@ a.menu:active {
 
     <nav class="nextprev cf" role="navigation">
       <div class="left-side side-nav" style="background-color: #F5A76F;">
-              <a class="arrow" href="http://averyreview.com/issues/5/city-and-its-laboratory" target="_blank"><img src="./index_files/arrow.svg" class="left-arrow"></a>
+              <a class="arrow" href="http://averyreview.com/issues/5/city-and-its-laboratory"><img src="./index_files/arrow.svg" class="left-arrow"></a>
                </div>
         <div class="right-side side-nav" style="background-color: #F5A76F;">
-              <a class="arrow" href="http://averyreview.com/issues/5/la-scrim" target="_blank"><img src="./index_files/arrow.svg" class="right-arrow"></a>
+              <a class="arrow" href="http://averyreview.com/issues/5/la-scrim"><img src="./index_files/arrow.svg" class="right-arrow"></a>
               </div>
     </nav>
   
@@ -356,11 +336,7 @@ a.menu:active {
       $('.article-footnote-side').css('opacity', 1);
     });
 
-    $(document.links).filter(function() {
-    return this.hostname != window.location.hostname;
-    }).attr('target', '_blank');
 
-  });
 
   var didScroll;
   $(window).scroll(function(){

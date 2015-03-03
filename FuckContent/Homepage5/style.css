@@ -1,3 +1,58 @@
+.info {
+   
+   width: 500px;
+
+   line-height: 32px;
+   margin: 0 auto;
+ text-align: justify;
+  font-size: 16px;
+
+ margin-top: 29px;
+ 
+
+   
+}
+
+
+
+#icon, #icon-active {
+    
+
+    position: fixed;
+    bottom: 9px;
+    right: 18px;
+    font-size: 26px;
+    font-family: 'Andale Mono';
+   
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 500;
+
+}
+
+#menu {
+    position: fixed;
+    cursor: default;
+    line-height: 1em;
+    text-align: left;
+    bottom: 0;
+   right: 0;
+    width: 600px;
+    height: 320px;
+    background: white;
+    visibility: hidden;
+    color: black;
+    z-index: 10;
+   
+}
+
+#icon:hover #menu {
+    visibility: visible;
+    color: blue;
+    z-index: 100;
+  
+}
+
 .title {
   transform: rotate(270deg);
   
@@ -19,7 +74,7 @@
    
    font-size: 16px;
    font-family: 'Andale Mono'; 
-   right: -63px;
+   right: -64px;
 }
 
 .brackets {
