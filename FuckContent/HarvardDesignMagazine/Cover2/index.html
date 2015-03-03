@@ -77,9 +77,38 @@ a.menu:active {
     color: blue;
   
 }
+
+html {
+    height:100%;
+}
+
+#background {
+  
+    width: 100%; 
+    position: fixed;
+   
+    left: 0px; 
+    top: -100px; 
+    z-index: -1;
+}
+
+.stretch {
+
+    width:100%;
+}
+
+hr {
+  height: 50px;
+  background: white;
+  z-index: 100;
+  margin-top: -5px;
+}
   </style>
 
-    <body class="index" id="home">
+
+
+
+<hr>
 
     <div id="icon">
     &#9460;
@@ -98,6 +127,8 @@ a.menu:active {
    </div>
   
   <body class="index" id="home">
+
+
 
     
 <!--[if lt IE 9]>
@@ -150,27 +181,15 @@ a.menu:active {
       <li><a href="./index_files/index.html">Harvard Design Magazine <span class="arrow top"><span></span></span></a></li>
     </ul>
 
-    <div id="search">
-      <span id="search-close" class="arrow close hidden"><span>×</span></span>
-      <form action="http://www.harvarddesignmagazine.org/search" id="search-form" method="GET"><input autocomplete="off" name="query" style="display: none;" type="text"></form>
-      <div id="search-icon" class=""></div>
-    </div>
+    
 
   </div>
 </div>
     </div>
     
-    <div id="content">
-      
-<div class="current-issue-wrapper" data-images="[[&quot;Munari.jpg&quot;,&quot;&quot;]]" style="height: 500px;"></div>
-    </div>
-    
-    
-    
-    
 
-    
-
-
+<div id="background">
+    <img src="Munari.jpg" class="stretch" alt="" />
+</div>
 
 </body></html>
