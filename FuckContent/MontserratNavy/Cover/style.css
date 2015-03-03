@@ -33,7 +33,7 @@ a.menu:active {
     right: 17px;
     font-size: 28px;
     font-family: 'Andale Mono';
-   
+   color: magenta;
     line-height: 40px;
     cursor: pointer;
     z-index: 100;
