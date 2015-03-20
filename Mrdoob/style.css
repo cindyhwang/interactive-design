@@ -1,0 +1,148 @@
+
+
+img {
+  max-height: 200px;
+  position: fixed;
+  left: 57px;
+  bottom:57px;
+}
+
+
+h1 {
+  font-family:'Anonymous Pro';
+  font-size: 150px;
+  font-weight: 700;
+  
+
+  top: -75px;
+   position: fixed;
+   color: red;
+    right: 0;
+    left: 0;
+       margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    z-index: -1
+
+   
+}
+
+h2 {
+  font-family:'Anonymous Pro';
+  font-size: 150px;
+  font-weight: 700;
+  
+
+  margin-top: 155px;
+
+   color: blue;
+    right: 0;
+    left: 0;
+       margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    opacity: 0.65;   
+}
+
+h3 {
+  font-family:'Anonymous Pro';
+  font-size: 150px;
+  font-weight: 700;
+  
+
+margin-top: -145px;
+
+   color: red;
+    right: 50;
+    left: 0;
+       margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  
+}
+
+h4 {
+  font-family:'Anonymous Pro';
+  font-size: 150px;
+  font-weight: 700;
+  
+
+  margin-top: -170px;
+
+   color: blue;
+    right: 0;
+    left: 0;
+       margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    opacity: 0.65;   
+}
+
+h5 {
+  font-family:'Anonymous Pro';
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: -160px;
+  letter-spacing: .25px;
+
+}
+
+h6 {
+  font-family:'Anonymous Pro';
+  font-size: 150px;
+  font-weight: 700;
+  margin-top: 70px;
+  margin-bottom: 100px;
+   color: blue;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+     opacity: 0.65;
+}
+
+.info {
+  font-family:'Anonymous Pro';
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 50px;
+  line-height: 175%;
+  letter-spacing: .24px;
+  top: 230px;
+
+}
+
+.text {
+  font-family:'Anonymous Pro';
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 40px;
+  line-height: 175%;
+  letter-spacing: .25px;
+  top: 230px;
+
+}
+
+.line {
+  margin-left: 298.5px;
+  margin-top: -20px;
+}
+
+a:link{
+  text-decoration: none;
+  border-bottom: 1px solid;
+  color: blue;
+}
+a:visited{
+  color: red;
+}
+a:hover{
+  color: purple;
+}
+
+.container {
+	width: 675px;
+margin: 0 auto;
+}
