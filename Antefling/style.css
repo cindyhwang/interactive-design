@@ -1,0 +1,125 @@
+h1 {
+	font-family: 'kaasregular';
+	font-size: 375px;
+	font-weight: normal;
+	font-style: normal;
+	position: fixed;
+	letter-spacing: 0px;
+	margin-top: -61px;
+	left: 20px;
+  -webkit-animation-name: flash;
+  -webkit-animation-duration: 1.5s;
+ -webkit-transition-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite; 
+
+
+
+}
+
+h2 {
+	font-family: 'kaasregular';
+	font-size: 375px;
+	font-weight: normal;
+	font-style: normal;
+	position: fixed;
+	letter-spacing: 0px;
+	right: 30px;
+	bottom: -350px;
+  -webkit-animation-name: flash;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite; 
+
+}
+
+h3 {
+	font-family: 'heimat_monobold';
+	font-weight: normal;
+    font-style: normal;
+    font-size: 19px;
+  transform: rotate(270deg);
+  position: absolute;
+  bottom: 156px;
+   left: -75px;
+
+}
+
+h4 {
+
+	font-family: 'kaasregular';
+	font-size: 375px;
+	font-weight: normal;
+	font-style: normal;
+	position: fixed;
+	letter-spacing: 0px;
+	text-align: center;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+	left: 0;
+	right: 0;
+	bottom: -350px;
+	color: white;
+	z-index: -1
+	
+}
+
+
+h5 {
+
+	font-family: 'heimat_monobold';
+	font-weight: normal;
+    font-style: normal;
+    font-size: 19px;
+position: absolute;
+  top: 18px;
+  right: 36px;
+}
+
+
+
+@-webkit-keyframes flash {
+      0% { opacity: .25; }
+     33% { opacity: .25; }
+     34% { opacity: .65; }
+   66% { opacity: .65; }
+   67% { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+img {
+	max-height: 100px;
+	position: absolute;
+	top: 240px;
+	right: 60px;
+	z-index: -1;
+	 -webkit-animation-name: flash;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+
+
+a:link {
+	text-decoration: none;
+	  border: 2px solid;
+  color: black;
+  padding-left: 6px;
+   padding-right: 6px;
+ padding-bottom: 3px;
+}
+
+a:visited {
+    color: black;
+}
+a:hover {
+    background-color: white;
+}
+a:active {
+    text-decoration: none;
+}
+
+
+
+body {
+	background: lime;
+	border: 10px;
+}
