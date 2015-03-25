@@ -7,12 +7,12 @@ h1 {
 	letter-spacing: 0px;
 	margin-top: -62px;
 	left: 22px;
- -webkit-animation-name: flash;
+ /*-webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
    -moz-animation-name: flash;
   -moz-animation-duration: 1.5s;
-  -moz-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;*/
 }
 
   h2 {
@@ -24,12 +24,12 @@ h1 {
 	letter-spacing: 0px;
 	margin-top: -55px;
 	left: 545px;
--webkit-animation-name: flash;
+/*-webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
      -moz-animation-name: flash;
   -moz-animation-duration: 1.5s;
-  -moz-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;*/
 
 
 
@@ -64,12 +64,12 @@ h4 {
 	right: 22px;
 	bottom: -534.25px;
 	
--webkit-animation-name: flash;
+/*-webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite; 
      -moz-animation-name: flash;
   -moz-animation-duration: 1.5s;
-  -moz-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;*/
 
 }
 
@@ -104,6 +104,7 @@ h5 {
 	z-index: -1
 
 
+
 	
 }
 
@@ -114,21 +115,21 @@ h6 {
 	font-weight: normal;
     font-style: normal;
     font-size: 19.5px;
-position: absolute;
+position: fixed;
   top: 13.05px;
   right: 29px;
 }
 
 
 
-@-webkit-keyframes flash {
+/*@-webkit-keyframes flash {
       0% { opacity: .25; }
      33% { opacity: .25; }
      34% { opacity: .65; }
    66% { opacity: .65; }
    67% { opacity: 1; }
     100% { opacity: 1; }
-}
+}*/
 
 img {
 	max-height: 100px;
@@ -136,12 +137,12 @@ img {
 	top: 238px;
 	right: 60px;
 	z-index: -1;
-	-webkit-animation-name: flash;
+	/*-webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
      -moz-animation-name: flash;
   -moz-animation-duration: 1.5s;
-  -moz-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;*/
 }
 
 .fling{
@@ -310,12 +311,12 @@ h6 {
     }
     	h3 {
     	font-size: 225px;
-    	bottom: -285px;
-    	right: 662px;
+    	bottom: -226px;
+    	right: 545px;
     }
    		 h4 {
     	font-size: 225px;
-    	bottom: -376px;
+    	bottom: -300px;
     }
     img {
     top: 25px;
@@ -335,5 +336,103 @@ h6 {
 	h6{
 		top: 169px;
 		font-size: 18px;
+	}
+  }
+
+    @media screen and (max-width: 400px) {
+     h1 {
+    	font-size: 100px;
+    	bottom: 212px;
+    }
+       h2 {
+    	font-size: 100px;
+    	bottom: 197px;
+    	left: 160px;
+    }
+    	h3 {
+    	font-size: 100px;
+    	bottom: 93px;
+    	right: 257px;
+    }
+   		 h4 {
+    	font-size: 100px;
+    	bottom: 60px;
+    }
+
+    h5 {
+    	font-size: 100px;
+    	bottom: 76px;
+    }
+
+    img {
+    top: 32px;
+	right: 20px;
+	max-height: 50px;
+}
+.wybc {
+	font-family: 'heimat_monobold';
+	font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+  transform: rotate(0deg);
+  position: absolute;
+  top: 50px;
+   left: 27px;
+}
+
+	h6{
+		margin-top: 332px;
+		font-size: 18px;
+		right: 22px;
+
+	}
+  }
+
+      @media screen and (max-width: 400px) {
+     h1 {
+    	font-size: 100px;
+    	bottom: 177px;
+    }
+       h2 {
+    	font-size: 100px;
+    	bottom: 162px;
+    	left: 160px;
+    }
+    	h3 {
+    	font-size: 100px;
+    	bottom: 58px;
+    	right: 257px;
+    }
+   		 h4 {
+    	font-size: 100px;
+    	bottom: 25px;
+    }
+
+    h5 {
+    	font-size: 100px;
+    	bottom: 40px;
+    }
+
+    img {
+    top: 32px;
+	right: 20px;
+	max-height: 50px;
+}
+.wybc {
+	font-family: 'heimat_monobold';
+	font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+  transform: rotate(0deg);
+  position: absolute;
+  top: 50px;
+   left: 27px;
+}
+
+	h6{
+		margin-top: 240px;
+		font-size: 18px;
+		right: 22px;
+
 	}
   }
