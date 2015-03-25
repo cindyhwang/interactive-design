@@ -103,7 +103,7 @@ h6 {
     font-style: normal;
     font-size: 19.5px;
 position: absolute;
-  top: 15px;
+  top: 13.05px;
   right: 29px;
 }
 
@@ -160,14 +160,54 @@ body {
 }
 
 
-  @media screen and (max-width: 1024px) {
+
+
+@media screen and (max-width: 1152px) {
      h1 {
-    	font-size: 325px;
+    	font-size: 350px;
     	margin-top: -39px;
     }
        h2 {
+    	font-size: 350px;
+    	margin-top: -48px;
+    	left: 510px;
+    }
+    	h3 {
+    	font-size: 350px;
+    	bottom: -378px;
+    	right: 835px;
+    }
+   		 h4 {
+    	font-size: 350px;
+    	bottom: -493px;
+    }
+    img {
+    top: 250px;
+	right: 40px;
+	
+}
+.wybc {
+	font-size: 18px;
+	bottom: 172px;
+   left: -78px;
+
+}
+
+h6 {
+	font-size: 18px;
+	top: 16px;
+}
+
+  }
+
+    @media screen and (max-width: 1024px) {
+     h1 {
     	font-size: 325px;
-    	margin-top: -39px;
+    	margin-top: 30px;
+    }
+       h2 {
+    	font-size: 325px;
+    	margin-top: 30px;
     	left: 475px;
     }
     	h3 {
@@ -175,93 +215,110 @@ body {
     	bottom: -346px;
     	right: 780px;
     }
-
-    h4 {
+   		 h4 {
     	font-size: 325px;
     	bottom: -455px;
     }
+    img {
+    top: 301px;
+	right: 35px;
+	max-height: 87.5px;
 
+
+	
+}
+.wybc {
+	font-family: 'heimat_monobold';
+	font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+  transform: rotate(0deg);
+  position: absolute;
+  top: 50px;
+   left: 27px;
+}
+	h6{
+		top: 87px;
+		font-size: 18px;
+	}
   }
 
-  @media screen and (max-width: 1000px) {
-   h1 {
-    	font-size: 300px;
-    }
-    h2 {
-    	font-size: 300px;
-    	margin-top: -55px;
-    	left: 300px;
-    }
-  @media screen and (max-width: 925px) {
-	h1 {
+  @media screen and (max-width: 896px) {
+     h1 {
     	font-size: 275px;
+    	margin-top: 125px;
     }
-    h2 {
+       h2 {
     	font-size: 275px;
+    	margin-top: 125px;
+    	left: 405px;
     }
+    	h3 {
+    	font-size: 275px;
+    	bottom: -285px;
+    	right: 662px;
+    }
+   		 h4 {
+    	font-size: 275px;
+    	bottom: -376px;
+    }
+    img {
+    top: 25px;
+	right: 25px;
+	max-height: 75px;
+}
+.wybc {
+	font-family: 'heimat_monobold';
+	font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+  transform: rotate(0deg);
+  position: absolute;
+  top: 50px;
+   left: 27px;
+}
+	h6{
+		top: 169px;
+		font-size: 18px;
+	}
+  }
 
-  @media screen and (max-width: 850px) {
-    h1 {
-    	font-size: 250px;
-    }
-      h2 {
-    	font-size: 250px;
-    }
-    
-  	@media screen and (max-width: 775px) {
-    h1 {
+    @media screen and (max-width: 768px) {
+     h1 {
     	font-size: 225px;
+    	margin-top: 139px;
     }
-     h2 {
+       h2 {
     	font-size: 225px;
+    	margin-top: 139px;
+    	left: 335px;
     }
-
-   @media screen and (max-width: 700px) {
-    h1 {
-    	font-size: 200px;
+    	h3 {
+    	font-size: 225px;
+    	bottom: -285px;
+    	right: 662px;
     }
-     h2 {
-    	font-size: 200px;
+   		 h4 {
+    	font-size: 225px;
+    	bottom: -376px;
     }
-
-       @media screen and (max-width: 625px) {
-    h1 {
-    	font-size: 175px;
-    }
-     h2 {
-    	font-size: 175px;
-    }
-
-    @media screen and (max-width: 550px) {
-    h1 {
-    	font-size: 150px;
-    }
-    h2 {
-    	font-size: 150px;
-    }
-
-    @media screen and (max-width: 475px) {
-    h1 {
-    	font-size: 125px;
-    }
-     h2 {
-    	font-size: 125px;
-    }
-
-        @media screen and (max-width: 400px) {
-    h1 {
-    	font-size: 100px;
-    }
-     h2 {
-    	font-size: 100px;
-    }
-
-            @media screen and (max-width: 320px) {
-    h1 {
-    	font-size: 75px;
-    }
-      h2 {
-    	font-size: 75px;
-    }
-
-  
+    img {
+    top: 25px;
+	right: 25px;
+	max-height: 75px;
+}
+.wybc {
+	font-family: 'heimat_monobold';
+	font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+  transform: rotate(0deg);
+  position: absolute;
+  top: 50px;
+   left: 27px;
+}
+	h6{
+		top: 169px;
+		font-size: 18px;
+	}
+  }
