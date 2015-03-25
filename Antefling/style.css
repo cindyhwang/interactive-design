@@ -10,6 +10,9 @@ h1 {
  -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
+   -moz-animation-name: flash;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-iteration-count: infinite;
 }
 
   h2 {
@@ -24,6 +27,9 @@ h1 {
 -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
+     -moz-animation-name: flash;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-iteration-count: infinite;
 
 
 
@@ -42,6 +48,9 @@ h3 {
 -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite; 
+     -moz-animation-name: flash;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-iteration-count: infinite;
 
 }
 
@@ -58,6 +67,9 @@ h4 {
 -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite; 
+     -moz-animation-name: flash;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-iteration-count: infinite;
 
 }
 
@@ -127,6 +139,9 @@ img {
 	-webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
+     -moz-animation-name: flash;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-iteration-count: infinite;
 }
 
 .fling{
