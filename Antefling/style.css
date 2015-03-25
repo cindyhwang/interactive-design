@@ -278,7 +278,55 @@ h6 {
 	}
   }
 
+ @media screen and (max-width: 896px) {
+     h1 {
+    font-size: 275px;
+    margin-top: 125px;
+    }
+       h2 {
+    font-size: 275px;
+    margin-top: 125px;
+    left: 405px;
+    }
+    h3 {
+    font-size: 275px;
+    bottom: -285px;
+    right: 662px;
+    }
+   	h4 {
+    font-size: 275px;
+    bottom: -376px;
+    }
+    h5 {
+    font-size: 275px;
+ resize: both;
+  overflow: auto;
+}
 
+   
+    
+    img {
+    top: 25px;
+right: 25px;
+max-height: 75px;
+}
+.wybc {
+font-family: 'heimat_monobold';
+font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+  transform: rotate(0deg);
+   -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  position: absolute;
+  top: 50px;
+   left: 27px;
+}
+h6{
+top: 169px;
+font-size: 18px;
+}
+  }
 
     @media screen and (max-width: 768px) {
      h1 {
