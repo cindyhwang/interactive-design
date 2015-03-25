@@ -363,6 +363,8 @@ h6 {
     font-style: normal;
     font-size: 18px;
   transform: rotate(0deg);
+     -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
   position: absolute;
   top: 50px;
    left: 27px;
@@ -380,29 +382,31 @@ h6 {
 	}
   }
 
+
+
     @media screen and (max-width: 400px) {
      h1 {
     	font-size: 100px;
-    	bottom: 212px;
+    	top: 30px;
     }
        h2 {
     	font-size: 100px;
-    	bottom: 197px;
+    	top: 30px;
     	left: 160px;
     }
     	h3 {
     	font-size: 100px;
-    	bottom: 93px;
+    		top: 162px;
     	right: 257px;
     }
    		 h4 {
     	font-size: 100px;
-    	bottom: 60px;
+    		top: 130px;
     }
 
     h5 {
     	font-size: 100px;
-    	bottom: 76px;
+    	top: 45px;
     }
 
     img {
@@ -422,9 +426,14 @@ h6 {
 }
 
 	h6{
-		margin-top: 332px;
-		font-size: 18px;
-		right: 22px;
+
+		font-size: 24px;
+		top: 350px;
+		text-align: center;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+	left: 0;
+	right: 0;
 
 	}
   }
