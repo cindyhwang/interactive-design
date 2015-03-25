@@ -328,7 +328,7 @@ h6 {
 	}
   }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 770px) {
      h1 {
     	font-size: 225px;
     	margin-top: 139px;
@@ -438,29 +438,29 @@ h6 {
 	}
   }
 
-      @media screen and (max-width: 320px) {
+    @media screen and (max-width: 400px) {
      h1 {
     	font-size: 100px;
-    	bottom: 177px;
+    	top: -15px;
     }
        h2 {
     	font-size: 100px;
-    	bottom: 162px;
+    	top: -15px;
     	left: 160px;
     }
     	h3 {
     	font-size: 100px;
-    	bottom: 58px;
+    		top: 162px;
     	right: 257px;
     }
    		 h4 {
     	font-size: 100px;
-    	bottom: 25px;
+    		top: 100px;
     }
 
     h5 {
     	font-size: 100px;
-    	bottom: 40px;
+    	top: 45px;
     }
 
     img {
@@ -480,9 +480,14 @@ h6 {
 }
 
 	h6{
-		margin-top: 240px;
+
 		font-size: 18px;
-		right: 22px;
+		top: 460px;
+		text-align: center;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+	left: 0;
+	right: 0;
 
 	}
   }
