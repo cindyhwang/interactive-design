@@ -224,11 +224,11 @@ h6 {
     @media screen and (max-width: 1024px) {
      h1 {
     	font-size: 300px;
-    	margin-top: 50px;
+    	margin-top: 45px;
     }
        h2 {
     	font-size: 300px;
-    	margin-top: 50px;
+    	margin-top: 45px;
     	left: 440px;
     }
     	h3 {
@@ -251,9 +251,9 @@ h6 {
 
     
     img {
-    top: 278px;
+    top: 284px;
 	right: 35px;
-	max-height: 87.5px;
+	max-height: 75px;
 
 
 	
@@ -273,7 +273,7 @@ h6 {
 }
 
 	h6{
-		top: 101px;
+		top: 96px;
 		font-size: 18px;
 	}
   }
@@ -340,17 +340,17 @@ h6 {
     }
     	h3 {
     	font-size: 225px;
-    	bottom: -226px;
+    	top: 124px;
     	right: 545px;
     }
    		 h4 {
     	font-size: 225px;
-    	bottom: -300px;
+    	top: 50px;
     }
 
     h5 {
     	font-size: 225px;
-    	bottom: -100px;
+    	top: -140px;
     }
     img {
     top: 25px;
@@ -368,8 +368,15 @@ h6 {
    left: 27px;
 }
 	h6{
-		top: 169px;
-		font-size: 18px;
+
+		font-size: 24px;
+		top: 570px;
+		text-align: center;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+	left: 0;
+	right: 0;
+
 	}
   }
 
