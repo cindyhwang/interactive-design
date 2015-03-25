@@ -136,7 +136,7 @@ img {
 	position: absolute;
 	top: 238px;
 	right: 60px;
-	z-index: -1;
+
 	/*-webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
@@ -197,6 +197,8 @@ body {
     	font-size: 350px;
     	bottom: -493px;
     }
+    h5 {
+    	font-size: 350px;
     img {
     top: 250px;
 	right: 40px;
@@ -218,22 +220,27 @@ h6 {
 
     @media screen and (max-width: 1024px) {
      h1 {
-    	font-size: 325px;
+    	font-size: 300px;
     	margin-top: 30px;
     }
        h2 {
-    	font-size: 325px;
+    	font-size: 300px;
     	margin-top: 30px;
     	left: 475px;
     }
     	h3 {
-    	font-size: 325px;
+    	font-size: 300px;
     	bottom: -346px;
     	right: 780px;
     }
    		 h4 {
-    	font-size: 325px;
+    	font-size: 300px;
     	bottom: -455px;
+    }
+
+      		 h5 {
+    	font-size: 300px;
+    
     }
     img {
     top: 301px;
@@ -388,7 +395,7 @@ h6 {
 	}
   }
 
-      @media screen and (max-width: 330px) {
+      @media screen and (max-width: 320px) {
      h1 {
     	font-size: 100px;
     	bottom: 177px;
