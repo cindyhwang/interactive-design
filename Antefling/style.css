@@ -173,7 +173,7 @@ a:active {
 }
 
 body {
-	background: aqua;
+	background: lime;
 
 }
 
@@ -476,11 +476,12 @@ font-size: 18px;
 	position: fixed;
   top: 50px;
    left: 10px;
+   font-size: 16px
 }
 
 	h6{
 
-		font-size: 18px;
+		font-size: 16px;
 		top: 365px;
 		text-align: center;
 	margin-right: 0 auto;
