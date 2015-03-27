@@ -135,7 +135,7 @@ position: fixed;
 
 img {
 	max-height: 100px;
-	position: absolute;
+	position: fixed;
 	top: 238px;
 	right: 60px;
 
