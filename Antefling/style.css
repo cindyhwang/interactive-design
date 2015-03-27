@@ -7,12 +7,15 @@ h1 {
 	letter-spacing: 0px;
 	margin-top: -62px;
 	left: 22px;
- /*-webkit-animation-name: flash;
+ -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
    -moz-animation-name: flash;
   -moz-animation-duration: 1.5s;
-  -moz-animation-iteration-count: infinite;*/
+  -moz-animation-iteration-count: infinite;
+  animation-name: flash;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
 }
 
   h2 {
@@ -24,12 +27,15 @@ h1 {
 	letter-spacing: 0px;
 	margin-top: -55px;
 	left: 545px;
-/*-webkit-animation-name: flash;
+-webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
      -moz-animation-name: flash;
   -moz-animation-duration: 1.5s;
-  -moz-animation-iteration-count: infinite;*/
+  -moz-animation-iteration-count: infinite;
+  animation-name: flash;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
 
 
 
@@ -51,6 +57,10 @@ h3 {
      -moz-animation-name: flash;
   -moz-animation-duration: 1.5s;
   -moz-animation-iteration-count: infinite;
+    animation-name: flash;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+
 
 }
 
@@ -64,12 +74,15 @@ h4 {
 	right: 22px;
 	bottom: -534.25px;
 	
-/*-webkit-animation-name: flash;
+-webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite; 
      -moz-animation-name: flash;
   -moz-animation-duration: 1.5s;
-  -moz-animation-iteration-count: infinite;*/
+  -moz-animation-iteration-count: infinite;
+    animation-name: flash;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
 
 }
 
@@ -80,6 +93,7 @@ h4 {
     font-size: 19.5px;
   transform: rotate(270deg);
     -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
   -webkit-transform: rotate(270deg);
   position: fixed;
   bottom: 177px;
@@ -124,14 +138,32 @@ position: fixed;
 
 
 
-/*@-webkit-keyframes flash {
+@-webkit-keyframes flash {
       0% { opacity: .25; }
      33% { opacity: .25; }
      34% { opacity: .65; }
    66% { opacity: .65; }
    67% { opacity: 1; }
     100% { opacity: 1; }
-}*/
+}
+
+@-moz-keyframes flash {
+      0% { opacity: .25; }
+     33% { opacity: .25; }
+     34% { opacity: .65; }
+   66% { opacity: .65; }
+   67% { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+@keyframes flash {
+      0% { opacity: .25; }
+     33% { opacity: .25; }
+     34% { opacity: .65; }
+   66% { opacity: .65; }
+   67% { opacity: 1; }
+    100% { opacity: 1; }
+}
 
 img {
 	max-height: 100px;
@@ -139,12 +171,16 @@ img {
 	top: 238px;
 	right: 60px;
 
-	/*-webkit-animation-name: flash;
+	-webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
      -moz-animation-name: flash;
   -moz-animation-duration: 1.5s;
-  -moz-animation-iteration-count: infinite;*/
+  -moz-animation-iteration-count: infinite;
+      animation-name: flash;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+
 }
 
 .fling{
@@ -225,27 +261,27 @@ h6 {
 
     @media screen and (max-width: 1024px) {
      h1 {
-    	font-size: 325px;
-    	margin-top: 39px;
+    	font-size: 300px;
+    	margin-top: 54px;
     }
        h2 {
-    	font-size: 325px;
-    	margin-top: 39px;
-    	left: 473px;
+    	font-size: 300px;
+    	margin-top: 52px;
+    	left: 440px;
     }
     	h3 {
-    	font-size: 325px;
-    	bottom: -349px;
-    	right: 777px;
+    	font-size: 300px;
+    	bottom: -317px;
+    	right: 721px;
     }
    		 h4 {
-    	font-size: 325px;
-    	bottom: -456px;
+    	font-size: 300px;
+    	bottom: -416px;
     }
 
       		 h5 {
-    	font-size: 325px;
-    	bottom: -404px;
+    	font-size: 300px;
+    	bottom: -368px;
 
    
     
@@ -253,9 +289,9 @@ h6 {
 
     
     img {
-    top: 309px;
+    top: 280px;
 	right: 35px;
-	max-height: 75px;
+	max-height: 90px;
 
 
 	
@@ -265,17 +301,17 @@ h6 {
 	font-weight: normal;
     font-style: normal;
     font-size: 18px;
-  transform: rotate(0deg);
-
-   -ms-transform: rotate(0deg);
+transform: rotate(0deg);
+     -ms-transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
+   -moz-transform: rotate(0deg);
   position: fixed;
   top: 50px;
    left: 27px;
 }
 
 	h6{
-		top: 96px;
+		top: 103px;
 		font-size: 18px;
 	}
   }
@@ -317,10 +353,10 @@ font-family: 'heimat_monobold';
 font-weight: normal;
     font-style: normal;
     font-size: 18px;
-  transform: rotate(0deg);
-   -ms-transform: rotate(0deg);
+transform: rotate(0deg);
+     -ms-transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
-
+   -moz-transform: rotate(0deg);
   top: 50px;
    left: 27px;
 }
@@ -367,7 +403,7 @@ font-size: 18px;
   transform: rotate(0deg);
      -ms-transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
- 
+   -moz-transform: rotate(0deg);
   top: 50px;
    left: 27px;
 }
@@ -422,7 +458,9 @@ font-size: 18px;
     font-style: normal;
     font-size: 18px;
   transform: rotate(0deg);
-
+     -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+   -moz-transform: rotate(0deg);
   top: 50px;
    left: 27px;
 }
