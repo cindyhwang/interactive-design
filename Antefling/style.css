@@ -148,20 +148,20 @@ position: fixed;
 }
 
 @-moz-keyframes flash {
-      0% { opacity: .25; }
-     33% { opacity: .25; }
+         0% { opacity: .25; }
+     17% { opacity: .25; }
      34% { opacity: .65; }
-   66% { opacity: .65; }
-   67% { opacity: 1; }
+   51% { opacity: .65; }
+   68% { opacity: 1; }
     100% { opacity: 1; }
 }
 
 @keyframes flash {
       0% { opacity: .25; }
-     33% { opacity: .25; }
+     17% { opacity: .25; }
      34% { opacity: .65; }
-   66% { opacity: .65; }
-   67% { opacity: 1; }
+   51% { opacity: .65; }
+   68% { opacity: 1; }
     100% { opacity: 1; }
 }
 
