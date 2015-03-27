@@ -473,7 +473,7 @@ font-size: 18px;
 	max-height: 50px;
 }
 .wybc {
-	
+	position: fixed;
   top: 50px;
    left: 10px;
 }
