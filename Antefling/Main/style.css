@@ -196,23 +196,21 @@ h6 {
     font-size: 16px;
     text-align: left;
     margin-top: 166px;
-    line-height: 120%
+    line-height: 120%;
+    margin-left: 49px;
+    position: fixed
 }
 
-.container-2 {
+/*.container {
   width: 125px;
     float: left;
     margin-left: 49px
   
-}
+}*/
 
 
 
-.container {
-  width: 400px;
 
-  float: right;
-}
 
 .tickets {
    font-family: 'heimat_monobold_italic';
@@ -346,6 +344,7 @@ a:visited {
 }
 a:hover {
     color: white;
+    font-size: 113%;
 }
 
 
