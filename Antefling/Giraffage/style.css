@@ -243,8 +243,9 @@ position: fixed;
    line-height: 120%;
  margin-left: -3px;
   font-size: 16px;
- margin-top: 31px;
- text-align: right
+ margin-top: 24px;
+ text-align: right;
+ z-index: 1
  
 }
 
@@ -270,7 +271,8 @@ position: fixed;
   position: fixed;
   bottom: 10px;
   left: 23px;
-  color: lime
+  color: lime;
+  z-index: -1
 
 }
 
@@ -280,7 +282,7 @@ position: fixed;
     bottom: 0;
    left: 0;
     width: 305px;
-    height: 146px;
+    height: 127px;
     background: white;
     visibility: hidden;
 
