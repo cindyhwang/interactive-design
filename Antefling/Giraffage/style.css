@@ -1,13 +1,12 @@
 h1 {
 	font-family: 'kaasregular';
-	font-size: 45px;
-	font-weight: normal;
-	font-style: normal;
-	position: fixed;
-	letter-spacing: 0px;
-	margin-top: 8px;
-	left: 27px;
-
+  font-size: 45px;
+  font-weight: normal;
+  font-style: normal;
+  position: fixed;
+  letter-spacing: 0px;
+  margin-top: 8px;
+  left: 25px;
  -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
@@ -22,13 +21,13 @@ h1 {
 
   h2 {
 	font-family: 'kaasregular';
-	font-size: 45px;
-	font-weight: normal;
-	font-style: normal;
-	position: fixed;
-	letter-spacing: 0px;
-	bottom: -19px;
-	right: 28px;
+  font-size: 45px;
+  font-weight: normal;
+  font-style: normal;
+  position: fixed;
+  letter-spacing: 0px;
+  bottom: -19px;
+  right: 28px;
  
 -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
@@ -186,8 +185,8 @@ h6 {
       font-weight: normal;
     font-style: normal;
     font-size: 18px;
-    margin-top: 255px;
-    line-height: 185%;
+    margin-top: 260px;
+    line-height: 180%;
     text-align: justify;
     
 }
@@ -214,7 +213,7 @@ h6 {
   margin-right: 0;
   text-align: center;
   bottom: 50px;
-  letter-spacing: -.5px
+  letter-spacing: -.25px
   
 }
 .main {
@@ -238,27 +237,16 @@ position: fixed;
     position: fixed
 }
 
-
-
-
 .tickets {
    font-family: 'heimat_monobold_italic';
    width: 280px;
-
-   line-height: 150%;
- margin-left: 0;
- margin-right: 0;
-
+   line-height: 120%;
+ margin-left: -3px;
   font-size: 16px;
-
- margin-top: 23px;
+ margin-top: 31px;
  text-align: right
  
-
-   
 }
-
-
 
 #icon {
     
@@ -268,8 +256,8 @@ position: fixed;
   font-weight: normal;
   font-style: normal;
   position: fixed;
-  bottom: 15px;
-  left: 20px;
+  bottom: 16px;
+  left: 23px;
 
 }
 
@@ -281,8 +269,8 @@ position: fixed;
   font-weight: normal;
   font-style: normal;
   position: fixed;
-  bottom: 15px;
-  left: 20px;
+  bottom: 16px;
+  left: 23px;
   color: lime
 
 }
@@ -290,16 +278,14 @@ position: fixed;
 #menu {
     position: fixed;
     cursor: default;
-    line-height: 1em;
- 
     bottom: 0;
    left: 0;
-    width: 310px;
+    width: 305px;
     height: 146px;
     background: white;
     visibility: hidden;
- 
-    z-index: 10;
+
+
    
 }
 

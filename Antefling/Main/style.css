@@ -6,7 +6,7 @@ h1 {
 	position: fixed;
 	letter-spacing: 0px;
 	margin-top: 8px;
-	left: 27px;
+	left: 25px;
 
  -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
@@ -201,46 +201,27 @@ h6 {
     position: fixed
 }
 
-/*.container {
-  width: 125px;
-    float: left;
-    margin-left: 49px
-  
-}*/
-
-
-
-
 
 .tickets {
    font-family: 'heimat_monobold_italic';
    width: 280px;
-
-   line-height: 150%;
- margin-left: 0;
- margin-right: 0;
-
+   line-height: 120%;
+ margin-left: -3px;
   font-size: 16px;
-
- margin-top: 23px;
+ margin-top: 31px;
  text-align: right
  
-
-   
 }
 
-
-
-#icon {
-    
+#icon {   
     cursor: pointer;
       font-family: 'heimat_monobold';
   font-size: 55px;
   font-weight: normal;
   font-style: normal;
   position: fixed;
-  bottom: 15px;
-  left: 20px;
+  bottom: 16px;
+  left: 23px;
 
 }
 
@@ -252,8 +233,8 @@ h6 {
   font-weight: normal;
   font-style: normal;
   position: fixed;
-  bottom: 15px;
-  left: 20px;
+  bottom: 16px;
+  left: 23px;
   color: lime
 
 }
@@ -261,30 +242,18 @@ h6 {
 #menu {
     position: fixed;
     cursor: default;
-    line-height: 1em;
- 
     bottom: 0;
    left: 0;
-    width: 310px;
+    width: 305px;
     height: 146px;
     background: white;
     visibility: hidden;
- 
-    z-index: 10;
-   
+
 }
 
 #icon:hover #menu {
     visibility: visible;
-    
 }
-
-
-
-
-
-
-
 
 @-webkit-keyframes flash {
       0% { opacity: .25; }
