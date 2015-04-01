@@ -257,6 +257,10 @@ h6 {
     visibility: visible;
 }
 
+#icon:focus #menu {
+    visibility: visible;
+}
+
 @-webkit-keyframes flash {
       0% { opacity: .25; }
      30% { opacity: .25; }
