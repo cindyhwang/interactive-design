@@ -1,0 +1,690 @@
+h1 {
+	font-family: 'kaasregular';
+  font-size: 45px;
+  font-weight: normal;
+  font-style: normal;
+  position: fixed;
+  letter-spacing: 0px;
+  margin-top: 8px;
+  left: 25px;
+ -webkit-animation-name: flash;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+   -moz-animation-name: flash;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-iteration-count: infinite;
+  animation-name: flash;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  z-index: -1
+}
+
+  h2 {
+	font-family: 'kaasregular';
+  font-size: 45px;
+  font-weight: normal;
+  font-style: normal;
+  position: fixed;
+  letter-spacing: 0px;
+  bottom: -19px;
+  right: 28px;
+ 
+-webkit-animation-name: flash;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-name: flash;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-iteration-count: infinite;
+  animation-name: flash;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  z-index: -1
+
+
+}
+
+h3 {
+	font-family: 'kaasregular';
+	font-size: 375px;
+	font-weight: normal;
+	font-style: normal;
+	position: fixed;
+	letter-spacing: 0px;
+		letter-spacing: 0px;
+	right: 895px;
+	bottom: -410.25px;
+  color: white;
+-webkit-animation-name: flash;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite; 
+     -moz-animation-name: flash;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-iteration-count: infinite;
+    animation-name: flash;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+z-index: -1
+
+}
+
+h4 {
+	font-family: 'kaasregular';
+	font-size: 375px;
+	font-weight: normal;
+	font-style: normal;
+	position: fixed;
+
+	right: 22px;
+	bottom: -534.25px;
+	color: white;
+-webkit-animation-name: flash;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite; 
+     -moz-animation-name: flash;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-iteration-count: infinite;
+    animation-name: flash;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+z-index: -1
+}
+
+.wybc {
+	font-family: 'heimat_monobold_italic';
+	font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+margin-top: 43px;
+  position: fixed;
+  margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+}
+
+.date {
+  font-family: 'heimat_monobold_italic';
+  font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+  position: fixed;
+  bottom: 52px;
+
+  letter-spacing: -.25px;
+    margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center
+
+}
+
+.free {
+  font-family: 'heimat_monobold_italic';
+  font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+  transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  position: fixed;
+  bottom: 300px;
+   left: -198px;
+
+}
+
+h5 {
+
+	font-family: 'kaasregular';
+	font-size: 375px;
+	font-weight: normal;
+	font-style: normal;
+	position: fixed;
+	letter-spacing: 0px;
+	text-align: center;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+	left: 0;
+	right: 0;
+	bottom: -472.75px;
+	color: white;
+	z-index: -1	
+}
+
+h6 {
+  font-family: 'heimat_monobold';
+  font-size: 55px;
+  font-weight: normal;
+  font-style: normal;
+  position: fixed;
+  letter-spacing: 0px;
+  bottom: -112px;
+  left: 20px;
+}
+
+.setlist {
+
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 127%;
+  margin-top: 123px;
+  position: fixed;
+  margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center
+
+}
+
+.bio {
+   font-family: 'heimat_monobold';
+      font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 260px;
+    line-height: 180%;
+    text-align: justify;
+    
+}
+
+.controls {
+  font-size: 18px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  bottom: 85px;
+  letter-spacing: 2px
+}
+
+.song {
+   font-family: 'heimat_monobold_italic';
+  font-size: 16px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  bottom: 50px;
+  letter-spacing: -.25px
+  
+}
+.main {
+  width: 675px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+
+position: fixed;
+}
+
+.info {
+  font-family: 'heimat_monobold_italic';
+      font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 166px;
+    line-height: 120%;
+    margin-left: 49px;
+    position: fixed
+}
+
+.tickets {
+   font-family: 'heimat_monobold_italic';
+   width: 280px;
+   line-height: 120%;
+ margin-left: -3px;
+  font-size: 16px;
+ margin-top: 24px;
+ text-align: right;
+ z-index: 1
+ 
+}
+
+#icon {   
+    cursor: pointer;
+      font-family: 'heimat_monobold';
+  font-size: 55px;
+  font-weight: normal;
+  font-style: normal;
+  position: fixed;
+  bottom: 16px;
+  left: 23px;
+
+}
+
+#icon-active {
+    
+    cursor: pointer;
+      font-family: 'heimat_monobold';
+  font-size: 62.15px;
+  font-weight: normal;
+  font-style: normal;
+  position: fixed;
+  bottom: 10px;
+  left: 23px;
+  color: lime;
+  z-index: -1
+
+}
+
+#menu {
+    position: fixed;
+    cursor: default;
+    bottom: 0;
+   left: 0;
+    width: 305px;
+    height: 127px;
+    background: white;
+    visibility: hidden;
+
+}
+
+#icon:hover #menu {
+    visibility: visible;
+}
+
+@-webkit-keyframes flash {
+      0% { opacity: .25; }
+     30% { opacity: .25; }
+     36% { opacity: .65; }
+   63% { opacity: .65; }
+   69% { opacity: 1; }
+    100% { opacity: 1; }}
+
+@-moz-keyframes flash {
+      0% { opacity: .25; }
+     30% { opacity: .25; }
+     36% { opacity: .65; }
+   63% { opacity: .65; }
+   69% { opacity: 1; }
+    100% { opacity: 1; }}
+}
+
+@keyframes flash {
+      0% { opacity: .25; }
+     30% { opacity: .25; }
+     36% { opacity: .65; }
+   63% { opacity: .65; }
+   69% { opacity: 1; }
+    100% { opacity: 1; }}
+
+img {
+	max-height: 100px;
+	position: fixed;
+	top: 238px;
+	right: 60px;
+
+	-webkit-animation-name: flash;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-name: flash;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-iteration-count: infinite;
+      animation-name: flash;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+
+}
+
+.fling{
+	overflow: hidden;
+  	display: inline-block;
+}
+
+a:link {
+  text-decoration: none;
+color: black;
+}
+
+a:visited {
+    color: black;
+}
+a:hover {
+    color: white;
+    font-size: 113%;
+}
+
+
+a:active {
+    text-decoration: none;
+    color: white;
+
+}
+
+a.two:hover {
+    color: lime;
+}
+
+a.two:active {
+    text-decoration: none;
+    color: lime;
+
+}
+
+body {
+	background: lime;
+
+}
+
+
+
+/*
+@media screen and (max-width: 1152px) {
+     h1 {
+    	font-size: 350px;
+    	margin-top: -39px;
+    }
+       h2 {
+    	font-size: 350px;
+    	margin-top: -48px;
+    	left: 510px;
+    }
+    	h3 {
+    	font-size: 350px;
+    	bottom: -378px;
+    	right: 835px;
+    }
+   		 h4 {
+    	font-size: 350px;
+    	bottom: -493px;
+    }
+    h5 {
+    	font-size: 350px;
+    	bottom: -437px;
+
+    }
+    img {
+    top: 250px;
+	right: 40px;
+	
+}
+.wybc {
+	font-size: 18px;
+	bottom: 172px;
+   left: -78px;
+
+}
+
+
+
+
+    @media screen and (max-width: 1024px) {
+     h1 {
+    	font-size: 300px;
+    	margin-top: 55px;
+    }
+       h2 {
+    	font-size: 300px;
+    	margin-top: 55px;
+    	left: 440px;
+    }
+    	h3 {
+    	font-size: 300px;
+    	bottom: -317px;
+    	right: 721px;
+    }
+   		 h4 {
+    	font-size: 300px;
+    	bottom: -416px;
+    }
+
+      		 h5 {
+    	font-size: 300px;
+    	bottom: -368px;
+
+   
+    
+    }
+
+    
+    img {
+    top: 280px;
+	right: 35px;
+	max-height: 90px;
+
+
+	
+}
+.wybc {
+	font-family: 'heimat_monobold';
+	font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+transform: rotate(0deg);
+     -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+   -moz-transform: rotate(0deg);
+  position: fixed;
+  top: 50px;
+   left: 27px;
+}
+
+	h6{
+		top: 105px;
+		font-size: 18px;
+	}
+  }
+
+ @media screen and (max-width: 896px) {
+     h1 {
+    font-size: 275px;
+    margin-top: 128.45px;
+    }
+       h2 {
+    font-size: 275px;
+    margin-top: 128.45px;
+    left: 405px;
+    }
+    h3 {
+    font-size: 275px;
+    bottom: -285px;
+    right: 662px;
+    }
+   	h4 {
+    font-size: 275px;
+    bottom: -376px;
+    }
+    h5 {
+    font-size: 275px;
+    bottom: -331px;
+
+}
+
+   
+    
+    img {
+    top: 25px;
+right: 25px;
+max-height: 75px;
+}
+.wybc {
+font-family: 'heimat_monobold';
+font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+transform: rotate(0deg);
+     -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+   -moz-transform: rotate(0deg);
+  top: 50px;
+   left: 27px;
+}
+h6{
+top: 172px;
+font-size: 18px;
+}
+  }
+
+    @media screen and (max-width: 768px) {
+     h1 {
+    	font-size: 225px;
+    	margin-top: 150.49px;
+    }
+       h2 {
+    	font-size: 225px;
+    	margin-top: 150.49px;
+    	left: 335px;
+    }
+    	h3 {
+    	font-size: 225px;
+    	top: 124px;
+    	right: 545px;
+    }
+   		 h4 {
+    	font-size: 225px;
+    	top: 50px;
+    }
+
+    h5 {
+    	font-size: 225px;
+    	top: -140px;
+    }
+    img {
+    top: 25px;
+	right: 25px;
+	max-height: 75px;
+}
+.wybc {
+	font-family: 'heimat_monobold';
+	font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+  transform: rotate(0deg);
+     -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+   -moz-transform: rotate(0deg);
+  top: 50px;
+   left: 27px;
+}
+	h6{
+
+		font-size: 24px;
+		top: 575px;
+		text-align: center;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+	left: 0;
+	right: 0;
+
+	}
+  }
+
+
+
+    @media screen and (max-width: 400px) {
+     h1 {
+    	font-size: 100px;
+    	top: 27px;
+    }
+       h2 {
+    	font-size: 100px;
+    	top: 27px;
+    	left: 160px;
+    }
+    	h3 {
+    	font-size: 100px;
+    		top: 162px;
+    	right: 257px;
+    }
+   		 h4 {
+    	font-size: 100px;
+    		top: 130px;
+    }
+
+    h5 {
+    	font-size: 100px;
+    	top: 44.5px;
+    }
+
+    img {
+    top: 32px;
+	right: 20px;
+	max-height: 50px;
+}
+.wybc {
+	font-family: 'heimat_monobold';
+	font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+  transform: rotate(0deg);
+     -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+   -moz-transform: rotate(0deg);
+  top: 50px;
+   left: 27px;
+}
+
+	h6{
+
+		font-size: 18px;
+		top: 460px;
+		text-align: center;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+	left: 0;
+	right: 0;
+
+	}
+  }
+
+    @media screen and (max-width: 320px) {
+     h1 {
+    	font-size: 100px;
+    	top: -22px;
+    	left: 10px;
+    }
+       h2 {
+    	font-size: 100px;
+    	top: -22px;
+    	left: 150px;
+    }
+    	h3 {
+    	font-size: 100px;
+    		top: 113px;
+    	right: 244px;
+    }
+   		 h4 {
+    	font-size: 100px;
+    		top: 80px;
+    		right: 10px;
+    }
+
+    h5 {
+    	font-size: 100px;
+    	top: -4px;
+    }
+
+    img {
+    top: 32px;
+	right: 10px;
+	max-height: 50px;
+}
+.wybc {
+	position: fixed;
+  top: 50px;
+   left: 10px;
+   font-size: 16px
+}
+
+	h6{
+
+		font-size: 16px;
+		top: 365px;
+		text-align: center;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+	left: 0;
+	right: 0;
+
+	}
+  }
+

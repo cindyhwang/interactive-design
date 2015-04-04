@@ -3,12 +3,12 @@ width: 160px;
 	position: fixed;
 	border: 2px solid;
   color: black;
-  padding-left: 4px;
+  padding-left: 3px;
    padding-right: 0px;
  padding-bottom: 9px;
   padding-top: 6px;
-    top: 56px;
-  right: 28px;
+    top: 28px;
+  right: 27px;
 }
 .countdown-rtl {
 	direction: rtl;

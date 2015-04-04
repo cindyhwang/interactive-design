@@ -345,103 +345,275 @@ body {
 }
 
 
-
-/*
-@media screen and (max-width: 1152px) {
-     h1 {
-    	font-size: 350px;
-    	margin-top: -39px;
-    }
-       h2 {
-    	font-size: 350px;
-    	margin-top: -48px;
-    	left: 510px;
-    }
-    	h3 {
-    	font-size: 350px;
-    	bottom: -378px;
-    	right: 835px;
-    }
-   		 h4 {
-    	font-size: 350px;
-    	bottom: -493px;
-    }
-    h5 {
-    	font-size: 350px;
-    	bottom: -437px;
-
-    }
-    img {
-    top: 250px;
-	right: 40px;
-	
-}
-.wybc {
-	font-size: 18px;
-	bottom: 172px;
-   left: -78px;
-
-}
-
-
-
-
     @media screen and (max-width: 1024px) {
-     h1 {
-    	font-size: 300px;
-    	margin-top: 55px;
-    }
-       h2 {
-    	font-size: 300px;
-    	margin-top: 55px;
-    	left: 440px;
-    }
-    	h3 {
-    	font-size: 300px;
-    	bottom: -317px;
-    	right: 721px;
-    }
-   		 h4 {
-    	font-size: 300px;
-    	bottom: -416px;
-    }
+     
+.setlist {
 
-      		 h5 {
-    	font-size: 300px;
-    	bottom: -368px;
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 127%;
+  margin-top: 105px;
+  position: fixed;
+  margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center
 
-   
-    
-    }
-
-    
-    img {
-    top: 280px;
-	right: 35px;
-	max-height: 90px;
-
-
-	
 }
+ 
+.info {
+  font-family: 'heimat_monobold_italic';
+      font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 148px;
+    line-height: 120%;
+    margin-left: 49px;
+    position: fixed
+}
+}
+
+@media screen and (max-width: 768px) {
+
+  .setlist {
+
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 127%;
+  margin-top: 210px;
+  position: fixed;
+  margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center
+
+}
+
+    h5 {
+      font-size: 300px;
+      top: -270px;
+    }
+
+.info {
+  font-family: 'heimat_monobold_italic';
+      font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 255px;
+    line-height: 120%;
+    margin-left: 15px;
+    position: fixed
+}
+
 .wybc {
-	font-family: 'heimat_monobold';
-	font-weight: normal;
+  font-family: 'heimat_monobold_italic';
+  font-weight: normal;
+    font-style: normal;
+    margin-top: 82px;
+
+
+}
+.date {
+  font-family: 'heimat_monobold_italic';
+  font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+  position: fixed;
+  bottom: 95px;
+
+  letter-spacing: -.25px;
+    margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center
+
+}
+
+img{
+  right: 40px;
+  top: 315px;
+}
+  }
+
+
+@media screen and (max-width: 400px) {
+
+  .setlist {
+
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 127%;
+  margin-top: 130px;
+  position: absolute;
+  margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center
+
+}
+
+    h5 {
+      font-size: 150px;
+      top: -40px;
+    }
+
+.info {
+  font-family: 'heimat_monobold_italic';
+  font-weight: normal;
     font-style: normal;
     font-size: 18px;
-transform: rotate(0deg);
-     -ms-transform: rotate(0deg);
-  -webkit-transform: rotate(0deg);
-   -moz-transform: rotate(0deg);
-  position: fixed;
-  top: 50px;
-   left: 27px;
+margin-top: 580px;
+margin-bottom: 80px;
+  position: absolute;
+  margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  line-height: 120%;
+
 }
 
-	h6{
-		top: 105px;
-		font-size: 18px;
-	}
+.wybc {
+  font-family: 'heimat_monobold_italic';
+  font-weight: normal;
+    font-style: normal;
+    margin-top: 90px;
+    font-size: 18px;
+    position: absolute;
+
+
+}
+.date {
+  font-family: 'heimat_monobold_italic';
+  font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+  position: fixed;
+  bottom: 80px;
+position: absolute;
+  letter-spacing: -.25px;
+    margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center
+
+}
+
+img{
+  right: 15px;
+  top: 230px;
+  max-height: 65px;
+}
   }
+
+  @media screen and (max-width: 320px) {
+
+  .setlist {
+
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 115%;
+  margin-top: 125px;
+  position: absolute;
+  margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center
+
+}
+
+    h5 {
+      font-size: 125px;
+      top: -40px;
+    }
+
+.info {
+  font-family: 'heimat_monobold_italic';
+  font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+margin-top: 482px;
+margin-bottom: 80px;
+  position: absolute;
+  margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  line-height: 120%;
+
+}
+
+.wybc {
+  font-family: 'heimat_monobold_italic';
+  font-weight: normal;
+    font-style: normal;
+    margin-top: 90px;
+    font-size: 18px;
+    position: absolute;
+
+
+}
+.date {
+  font-family: 'heimat_monobold_italic';
+  font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+  position: fixed;
+  bottom: 80px;
+position: absolute;
+  letter-spacing: -.25px;
+    margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center
+
+}
+
+img{
+  right: 15px;
+  top: 185px;
+  max-height: 65px;
+}
+
+#icon {   
+    cursor: pointer;
+      font-family: 'heimat_monobold';
+  font-size: 55px;
+  font-weight: normal;
+  font-style: normal;
+  position: fixed;
+  bottom: 16px;
+  left: 20px;
+
+}
+
+#icon-active {
+    
+    cursor: pointer;
+      font-family: 'heimat_monobold';
+  font-size: 62.15px;
+  font-weight: normal;
+  font-style: normal;
+  position: fixed;
+  bottom: 10px;
+  left: 20px;
+  color: lime;
+  z-index: -1
+
+}
+  }
+  /*
 
  @media screen and (max-width: 896px) {
      h1 {
@@ -493,59 +665,7 @@ font-size: 18px;
 }
   }
 
-    @media screen and (max-width: 768px) {
-     h1 {
-    	font-size: 225px;
-    	margin-top: 150.49px;
-    }
-       h2 {
-    	font-size: 225px;
-    	margin-top: 150.49px;
-    	left: 335px;
-    }
-    	h3 {
-    	font-size: 225px;
-    	top: 124px;
-    	right: 545px;
-    }
-   		 h4 {
-    	font-size: 225px;
-    	top: 50px;
-    }
-
-    h5 {
-    	font-size: 225px;
-    	top: -140px;
-    }
-    img {
-    top: 25px;
-	right: 25px;
-	max-height: 75px;
-}
-.wybc {
-	font-family: 'heimat_monobold';
-	font-weight: normal;
-    font-style: normal;
-    font-size: 18px;
-  transform: rotate(0deg);
-     -ms-transform: rotate(0deg);
-  -webkit-transform: rotate(0deg);
-   -moz-transform: rotate(0deg);
-  top: 50px;
-   left: 27px;
-}
-	h6{
-
-		font-size: 24px;
-		top: 575px;
-		text-align: center;
-	margin-right: 0 auto;
-	margin-left: 0 auto;
-	left: 0;
-	right: 0;
-
-	}
-  }
+    
 
 
 
