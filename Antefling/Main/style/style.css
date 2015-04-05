@@ -514,14 +514,22 @@ img{
 }
   }
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 400px) {
 
+
+  h1 {
+    left: 10px;
+  }
+
+  h2 {
+    right:10px;
+  }
   .setlist {
 
   font-size: 55px;
   font-weight: bold;
-  line-height: 115%;
-  margin-top: 125px;
+  line-height: 110%;
+  margin-top: 115px;
   position: absolute;
   margin-left: auto;
   margin;right: auto;
@@ -533,7 +541,7 @@ img{
 
     h5 {
       font-size: 125px;
-      top: -40px;
+      top: -55px;
     }
 
 .info {
@@ -557,7 +565,7 @@ margin-bottom: 80px;
   font-family: 'heimat_monobold_italic';
   font-weight: normal;
     font-style: normal;
-    margin-top: 90px;
+    margin-top: 85px;
     font-size: 18px;
     position: absolute;
 
@@ -569,7 +577,7 @@ margin-bottom: 80px;
     font-style: normal;
     font-size: 18px;
   position: fixed;
-  bottom: 80px;
+  bottom: 75px;
 position: absolute;
   letter-spacing: -.25px;
     margin-left: auto;
@@ -581,8 +589,8 @@ position: absolute;
 }
 
 img{
-  right: 15px;
-  top: 185px;
+  right: 10px;
+  top: 175px;
   max-height: 65px;
 }
 
@@ -593,8 +601,8 @@ img{
   font-weight: normal;
   font-style: normal;
   position: fixed;
-  bottom: 16px;
-  left: 20px;
+  bottom: 10px;
+  left: 10px;
 
 }
 
@@ -606,8 +614,8 @@ img{
   font-weight: normal;
   font-style: normal;
   position: fixed;
-  bottom: 10px;
-  left: 20px;
+  bottom: 5px;
+  left: 10px;
   color: lime;
   z-index: -1
 
