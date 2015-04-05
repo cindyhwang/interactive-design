@@ -519,10 +519,12 @@ img{
 
   h1 {
     left: 10px;
+    margin-top: -5px;
   }
 
   h2 {
     right:10px;
+    bottom: -30px;
   }
   .setlist {
 
@@ -590,7 +592,7 @@ position: absolute;
 
 img{
   right: 10px;
-  top: 175px;
+  top: 180px;
   max-height: 65px;
 }
 
@@ -601,7 +603,7 @@ img{
   font-weight: normal;
   font-style: normal;
   position: fixed;
-  bottom: 10px;
+  bottom: 5px;
   left: 10px;
 
 }
@@ -614,7 +616,7 @@ img{
   font-weight: normal;
   font-style: normal;
   position: fixed;
-  bottom: 5px;
+  bottom: 0px;
   left: 10px;
   color: lime;
   z-index: -1
