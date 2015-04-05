@@ -255,6 +255,7 @@ h6 {
 
 #icon:hover #menu {
     visibility: visible;
+    cursor: pointer;
 }
 
 #icon:focus #menu {
@@ -467,7 +468,7 @@ img{
   font-family: 'heimat_monobold_italic';
   font-weight: normal;
     font-style: normal;
-    font-size: 18px;
+    font-size: 16px;
 margin-top: 580px;
 margin-bottom: 80px;
   position: absolute;
@@ -550,7 +551,7 @@ img{
   font-family: 'heimat_monobold_italic';
   font-weight: normal;
     font-style: normal;
-    font-size: 18px;
+    font-size: 16px;
 margin-top: 482px;
 margin-bottom: 100px;
   position: absolute;

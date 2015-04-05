@@ -7,8 +7,8 @@ width: 160px;
    padding-right: 0px;
  padding-bottom: 9px;
   padding-top: 6px;
-    top: 56px;
-  right: 28px;
+    top: 28px;
+  right: 27px;
 }
 .countdown-rtl {
 	direction: rtl;
@@ -64,4 +64,12 @@ width: 160px;
 .countdown-descr {
 	display: block;
 	width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+
+.is-countdown {
+  right: 10px;
+  top: 15px;
+}
 }
