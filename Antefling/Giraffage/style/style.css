@@ -199,7 +199,7 @@ h6 {
   margin-left: 0;
   margin-right: 0;
   text-align: center;
-  bottom: 85px;
+  bottom: 80px;
   letter-spacing: 2px
 }
 
@@ -213,9 +213,17 @@ h6 {
   margin-right: 0;
   text-align: center;
   bottom: 50px;
-  letter-spacing: -.25px
+  letter-spacing: -.25px;
+
   
 }
+
+#play:hover {
+    
+    cursor: pointer;
+}
+
+
 .main {
   width: 675px;
   margin: 0 auto;
@@ -290,6 +298,7 @@ position: fixed;
 
 #icon:hover #menu {
     visibility: visible;
+    cursor: pointer;
 }
 
 @-webkit-keyframes flash {

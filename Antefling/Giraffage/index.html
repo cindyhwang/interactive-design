@@ -10,33 +10,25 @@
 		<link rel="stylesheet" href="fonts/Heimat-Mono-Italic/stylesheet.css" type="text/css" charset="utf-8" />
 		<link rel="icon" type="image/png" href="https://wybc.com/wp-content/themes/WYBC 2013 May/_/img/yalegoat.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 		<link rel="stylesheet" type="text/css" href="style/jquery.countdown.css"> 
 		<script type="text/javascript" src="js/jquery.plugin.js"></script> 
 		<script type="text/javascript" src="js/jquery.countdown.js"></script>
-		<script type="text/javascript" src="js/giraffage.js"></script>
-		<audio>
-		  <source src="music/Feels.ogg" type="audio/ogg">
-		  <source src="music/Feels.mp3" type="audio/mpeg">
-		Your browser does not support the audio element.
-		</audio>
-		<script>
-			$('#play').click(function() {
-
-			if( $('audio').play() !==true {
-			$('audio').play();
-			$('#play').html('&#10073;&#10073;');
-			} else {
-			$('audio').pause();
-			$('#play').html('&#9654;');
-			}
-			</script>
+		<script type="text/javascript" src="js/main.js"></script>
+		
+		
 			
 
 	</head>
 
 	<body>
+
+		<audio id="soundControl">
+		  <source src="music/Feels.ogg" type="audio/ogg">
+		  <source src="music/Feels.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+		</audio>
 
 		<div id="defaultCountdown"></div>
 
@@ -54,18 +46,20 @@
 			<div style="display:none" class="bio">
 			Giraffage is San Francisco-based producer and beat guru, Charlie Yin. His signature sound of electronic pop has won him praise from Pitchfork, FADER and XLR8R. He broke into the music scene with his debut, Pretty Things EP, in 2011. It was soon followed by his synth-pop debut album, Comfort, which XLR8R called "[an] ebullient slice of electronic pop...[with] pleasantly ambient and sample-laden instrumentals."
 			He most recently released his No Reason EP via Fool's Gold, in November 2014.
-			<div class="controls">
+			</div>
+			
+			<div style="display: none" class="controls">
 				<span id="play">&#9654;</span>
 			</div>
-			<div class="song">
+
+			<div style="display: none" class="song">
 				giraffage &#8212; feels
+			
 			</div>
 
-			</div>
-	
 		</div>
 			
-	
+
 		
 		
 		<div class="info">
@@ -86,6 +80,25 @@
         </div>
        </div>
    </div>
+
+   <script>
+		var soundControl = document.getElementById("soundControl"); 
+
+					$('#play').click(function() {
+
+						if( soundControl.paused == true) {
+
+					    	soundControl.play();
+					    	$('#play').html('&#10073;&#10073;');
+
+						} else {
+
+					    	soundControl.pause();
+					    	$('#play').html('&#9654;');
+
+						}
+					});
+</script>
 
 	</body>
 
