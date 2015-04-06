@@ -1,7 +1,7 @@
 body {
   font-family:'Karla';
   color: black;
-  font-size: 26px;
+  font-size: 24px;
 }
 
 header{
@@ -11,14 +11,16 @@ header{
 .title{
 	font-family:'Karla';
 	font-weight: 700;
-	margin-top: 75px;
+	margin-top: 60px;
 	margin-bottom: -100px;
+
 }
 
 h2{
-  font-size: 6.25em;
+  font-size: 6em;
   text-align: left;
   color: blue;
+  margin-top: 130px;
 
 }
 
@@ -38,7 +40,7 @@ a:active {
 
 .projects{
 	font-family:'Karla';
-	font-size: 26px;
+	font-size: 24px;
   	text-align: right;
   	line-height: 210%;
   	margin-top: -25px;
