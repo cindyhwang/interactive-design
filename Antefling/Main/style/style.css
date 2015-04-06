@@ -171,7 +171,7 @@ h6 {
   font-size: 90px;
   font-weight: bold;
   line-height: 127%;
-  margin-top: 123px;
+  margin-top: 115px;
   position: fixed;
   margin-left: auto;
   margin;right: auto;
@@ -195,7 +195,7 @@ h6 {
     font-style: normal;
     font-size: 16px;
     text-align: left;
-    margin-top: 166px;
+    margin-top: 160px;
     line-height: 120%;
     margin-left: 49px;
     position: fixed
@@ -342,6 +342,7 @@ a.two:active {
 
 body {
 	background: lime;
+  cursor: url('cursor.png'), auto;  
 
 }
 

@@ -208,6 +208,7 @@ a:active {
 
 body {
 	background: lime;
+   cursor: url('cursor.png'), auto;  
 
 }
 
