@@ -423,7 +423,7 @@ body {
       font-weight: normal;
     font-style: normal;
     font-size: 18px;
-    margin-top: 230px;
+    margin-top: 225px;
     line-height: 180%;
     text-align: justify;
     
@@ -544,7 +544,7 @@ img{
       font-weight: normal;
     font-style: normal;
     font-size: 18px;
-    margin-top: 267px;
+    margin-top: 270px;
     line-height: 180%;
     text-align: justify;
     
@@ -671,7 +671,7 @@ img{
 }
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 320px) {
 
 
   .controls {

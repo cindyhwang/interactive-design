@@ -13,6 +13,10 @@
 			$("h2").delay(2000).fadeIn(500);
 			$("h5").delay(2500).fadeIn(500);
 
+			});
+
+
+
 
 			$('.hover').bind('touchstart touchend', function(e) {
 				e.preventDefault();
@@ -20,10 +24,12 @@
        		$(this).toggleClass('hover');
 
 			
+
+			});
        	
 
-       		});
+       	
 
 
-});
+
 			

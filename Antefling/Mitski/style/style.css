@@ -1,5 +1,5 @@
 h1 {
-	font-family: 'kaasregular';
+  font-family: 'kaasregular';
   font-size: 45px;
   font-weight: normal;
   font-style: normal;
@@ -20,7 +20,7 @@ h1 {
 }
 
   h2 {
-	font-family: 'kaasregular';
+  font-family: 'kaasregular';
   font-size: 45px;
   font-weight: normal;
   font-style: normal;
@@ -44,15 +44,15 @@ h1 {
 }
 
 h3 {
-	font-family: 'kaasregular';
-	font-size: 375px;
-	font-weight: normal;
-	font-style: normal;
-	position: fixed;
-	letter-spacing: 0px;
-		letter-spacing: 0px;
-	right: 895px;
-	bottom: -410.25px;
+  font-family: 'kaasregular';
+  font-size: 375px;
+  font-weight: normal;
+  font-style: normal;
+  position: fixed;
+  letter-spacing: 0px;
+    letter-spacing: 0px;
+  right: 895px;
+  bottom: -410.25px;
   color: white;
 -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
@@ -68,15 +68,15 @@ z-index: -1
 }
 
 h4 {
-	font-family: 'kaasregular';
-	font-size: 375px;
-	font-weight: normal;
-	font-style: normal;
-	position: fixed;
+  font-family: 'kaasregular';
+  font-size: 375px;
+  font-weight: normal;
+  font-style: normal;
+  position: fixed;
 
-	right: 22px;
-	bottom: -534.25px;
-	color: white;
+  right: 22px;
+  bottom: -534.25px;
+  color: white;
 -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite; 
@@ -90,8 +90,8 @@ z-index: -1
 }
 
 .wybc {
-	font-family: 'heimat_monobold_italic';
-	font-weight: normal;
+  font-family: 'heimat_monobold_italic';
+  font-weight: normal;
     font-style: normal;
     font-size: 22px;
 margin-top: 43px;
@@ -138,20 +138,20 @@ margin-top: 43px;
 
 h5 {
 
-	font-family: 'kaasregular';
-	font-size: 375px;
-	font-weight: normal;
-	font-style: normal;
-	position: fixed;
-	letter-spacing: 0px;
-	text-align: center;
-	margin-right: 0 auto;
-	margin-left: 0 auto;
-	left: 0;
-	right: 0;
-	bottom: -472.75px;
-	color: white;
-	z-index: -1	
+  font-family: 'kaasregular';
+  font-size: 375px;
+  font-weight: normal;
+  font-style: normal;
+  position: fixed;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: -472.75px;
+  color: white;
+  z-index: -1 
 }
 
 h6 {
@@ -199,8 +199,13 @@ h6 {
   margin-left: 0;
   margin-right: 0;
   text-align: center;
-  bottom: 85px;
-  letter-spacing: 2px
+  bottom: 80px;
+  letter-spacing: 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .song {
@@ -213,9 +218,17 @@ h6 {
   margin-right: 0;
   text-align: center;
   bottom: 50px;
-  letter-spacing: -.25px
+  letter-spacing: -.25px;
+
   
 }
+
+#play:hover {
+    
+    cursor: pointer;
+}
+
+
 .main {
   width: 675px;
   margin: 0 auto;
@@ -290,6 +303,7 @@ position: fixed;
 
 #icon:hover #menu {
     visibility: visible;
+    cursor: pointer;
 }
 
 @-webkit-keyframes flash {
@@ -318,12 +332,12 @@ position: fixed;
     100% { opacity: 1; }}
 
 img {
-	max-height: 100px;
-	position: fixed;
-	top: 238px;
-	right: 60px;
+  max-height: 100px;
+  position: fixed;
+  top: 238px;
+  right: 60px;
 
-	-webkit-animation-name: flash;
+  -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
      -moz-animation-name: flash;
@@ -336,8 +350,8 @@ img {
 }
 
 .fling{
-	overflow: hidden;
-  	display: inline-block;
+  overflow: hidden;
+    display: inline-block;
 }
 
 a:link {
@@ -371,320 +385,447 @@ a.two:active {
 }
 
 body {
-	background: lime;
+  background: lime;
 
 }
-
-
-
-/*
-@media screen and (max-width: 1152px) {
-     h1 {
-    	font-size: 350px;
-    	margin-top: -39px;
-    }
-       h2 {
-    	font-size: 350px;
-    	margin-top: -48px;
-    	left: 510px;
-    }
-    	h3 {
-    	font-size: 350px;
-    	bottom: -378px;
-    	right: 835px;
-    }
-   		 h4 {
-    	font-size: 350px;
-    	bottom: -493px;
-    }
-    h5 {
-    	font-size: 350px;
-    	bottom: -437px;
-
-    }
-    img {
-    top: 250px;
-	right: 40px;
-	
-}
-.wybc {
-	font-size: 18px;
-	bottom: 172px;
-   left: -78px;
-
-}
-
-
-
 
     @media screen and (max-width: 1024px) {
-     h1 {
-    	font-size: 300px;
-    	margin-top: 55px;
-    }
-       h2 {
-    	font-size: 300px;
-    	margin-top: 55px;
-    	left: 440px;
-    }
-    	h3 {
-    	font-size: 300px;
-    	bottom: -317px;
-    	right: 721px;
-    }
-   		 h4 {
-    	font-size: 300px;
-    	bottom: -416px;
-    }
+     
+.setlist {
 
-      		 h5 {
-    	font-size: 300px;
-    	bottom: -368px;
-
-   
-    
-    }
-
-    
-    img {
-    top: 280px;
-	right: 35px;
-	max-height: 90px;
-
-
-	
-}
-.wybc {
-	font-family: 'heimat_monobold';
-	font-weight: normal;
-    font-style: normal;
-    font-size: 18px;
-transform: rotate(0deg);
-     -ms-transform: rotate(0deg);
-  -webkit-transform: rotate(0deg);
-   -moz-transform: rotate(0deg);
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 127%;
+  margin-top: 93px;
   position: fixed;
-  top: 50px;
-   left: 27px;
-}
-
-	h6{
-		top: 105px;
-		font-size: 18px;
-	}
-  }
-
- @media screen and (max-width: 896px) {
-     h1 {
-    font-size: 275px;
-    margin-top: 128.45px;
-    }
-       h2 {
-    font-size: 275px;
-    margin-top: 128.45px;
-    left: 405px;
-    }
-    h3 {
-    font-size: 275px;
-    bottom: -285px;
-    right: 662px;
-    }
-   	h4 {
-    font-size: 275px;
-    bottom: -376px;
-    }
-    h5 {
-    font-size: 275px;
-    bottom: -331px;
+  margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center
 
 }
+ 
+.info {
+  font-family: 'heimat_monobold_italic';
+      font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 145px;
+    line-height: 120%;
+    margin-left: 49px;
+    position: fixed
+}
 
-   
+.bio {
+   font-family: 'heimat_monobold';
+      font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: 230px;
+    line-height: 180%;
+    text-align: justify;
     
-    img {
-    top: 25px;
-right: 25px;
-max-height: 75px;
 }
-.wybc {
-font-family: 'heimat_monobold';
-font-weight: normal;
-    font-style: normal;
-    font-size: 18px;
-transform: rotate(0deg);
-     -ms-transform: rotate(0deg);
-  -webkit-transform: rotate(0deg);
-   -moz-transform: rotate(0deg);
-  top: 50px;
-   left: 27px;
-}
-h6{
-top: 172px;
-font-size: 18px;
-}
-  }
 
-    @media screen and (max-width: 768px) {
-     h1 {
-    	font-size: 225px;
-    	margin-top: 150.49px;
-    }
-       h2 {
-    	font-size: 225px;
-    	margin-top: 150.49px;
-    	left: 335px;
-    }
-    	h3 {
-    	font-size: 225px;
-    	top: 124px;
-    	right: 545px;
-    }
-   		 h4 {
-    	font-size: 225px;
-    	top: 50px;
-    }
+.controls {
+  font-size: 18px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  bottom: 80px;
+  letter-spacing: 2px
+}
+
+.song {
+   font-family: 'heimat_monobold_italic';
+  font-size: 16px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  bottom: 50px;
+  letter-spacing: -.25px;
+
+  
+}
+
+.main {
+  width: 615px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+
+position: fixed;
+}
+
+h5 {
+  top: -560px;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+
+.controls {
+  font-size: 18px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  bottom: 80px;
+  letter-spacing: 2px
+}
+
+.main {
+  width: 430px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+
+position: fixed;
+}
 
     h5 {
-    	font-size: 225px;
-    	top: -140px;
+      font-size: 300px;
+      top: -265px;
     }
-    img {
-    top: 25px;
-	right: 25px;
-	max-height: 75px;
+
+.info {
+  font-family: 'heimat_monobold_italic';
+      font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 263px;
+    line-height: 120%;
+    margin-left: 15px;
+    position: fixed
 }
+
 .wybc {
-	font-family: 'heimat_monobold';
-	font-weight: normal;
+  font-family: 'heimat_monobold_italic';
+  font-weight: normal;
+    font-style: normal;
+    margin-top: 82px;
+
+
+}
+
+
+img{
+  right: 40px;
+  top: 315px;
+}
+
+.setlist {
+ font-size: 90px;
+  font-weight: bold;
+  line-height: 127%;
+  margin-top: 135px;
+  position: fixed;
+  margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center
+  }
+
+  .bio {
+   font-family: 'heimat_monobold';
+      font-weight: normal;
     font-style: normal;
     font-size: 18px;
-  transform: rotate(0deg);
-     -ms-transform: rotate(0deg);
-  -webkit-transform: rotate(0deg);
-   -moz-transform: rotate(0deg);
-  top: 50px;
-   left: 27px;
+    margin-top: 267px;
+    line-height: 180%;
+    text-align: justify;
+    
 }
-	h6{
+}
 
-		font-size: 24px;
-		top: 575px;
-		text-align: center;
-	margin-right: 0 auto;
-	margin-left: 0 auto;
-	left: 0;
-	right: 0;
+@media screen and (max-width: 400px) {
+.controls {
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+top: 660px;
+  letter-spacing: 2px
+}
 
-	}
-  }
+.song {
+   font-family: 'heimat_monobold_italic';
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  top: 685px;
+  letter-spacing: -.25px;
 
+  
+}
 
+  .setlist {
 
-    @media screen and (max-width: 400px) {
-     h1 {
-    	font-size: 100px;
-    	top: 27px;
-    }
-       h2 {
-    	font-size: 100px;
-    	top: 27px;
-    	left: 160px;
-    }
-    	h3 {
-    	font-size: 100px;
-    		top: 162px;
-    	right: 257px;
-    }
-   		 h4 {
-    	font-size: 100px;
-    		top: 130px;
-    }
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 127%;
+  margin-top: 130px;
+  position: absolute;
+  margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center
+
+}
+
+  .bio {
+   font-family: 'heimat_monobold';
+      font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 220px;
+    line-height: 180%;
+    text-align: justify;
+    position: absolute;
+    
+}
+
+.main {
+  width: 325px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+
+position: absolute;
+}
 
     h5 {
-    	font-size: 100px;
-    	top: 44.5px;
+      font-size: 150px;
+      top: -180px;
     }
 
-    img {
-    top: 32px;
-	right: 20px;
-	max-height: 50px;
+.info {
+  font-family: 'heimat_monobold_italic';
+  font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+margin-top: 780px;
+margin-bottom: 120px;
+  position: absolute;
+  margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  line-height: 120%;
+
 }
+
 .wybc {
-	font-family: 'heimat_monobold';
-	font-weight: normal;
+  font-family: 'heimat_monobold_italic';
+  font-weight: normal;
+    font-style: normal;
+    margin-top: 90px;
+    font-size: 18px;
+    position: absolute;
+
+
+}
+.date {
+  font-family: 'heimat_monobold_italic';
+  font-weight: normal;
     font-style: normal;
     font-size: 18px;
-  transform: rotate(0deg);
-     -ms-transform: rotate(0deg);
-  -webkit-transform: rotate(0deg);
-   -moz-transform: rotate(0deg);
-  top: 50px;
-   left: 27px;
+  position: fixed;
+  bottom: 80px;
+position: absolute;
+  letter-spacing: -.25px;
+    margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center
+
 }
 
-	h6{
-
-		font-size: 18px;
-		top: 460px;
-		text-align: center;
-	margin-right: 0 auto;
-	margin-left: 0 auto;
-	left: 0;
-	right: 0;
-
-	}
+img{
+  right: 15px;
+  top: 230px;
+  max-height: 65px;
+}
   }
 
-    @media screen and (max-width: 320px) {
-     h1 {
-    	font-size: 100px;
-    	top: -22px;
-    	left: 10px;
-    }
-       h2 {
-    	font-size: 100px;
-    	top: -22px;
-    	left: 150px;
-    }
-    	h3 {
-    	font-size: 100px;
-    		top: 113px;
-    	right: 244px;
-    }
-   		 h4 {
-    	font-size: 100px;
-    		top: 80px;
-    		right: 10px;
-    }
+  @media screen and (max-width: 320px) {
+
+
+  .controls {
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+top: 710px;
+  letter-spacing: 2px
+}
+
+.song {
+   font-family: 'heimat_monobold_italic';
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  top: 735px;
+  letter-spacing: -.25px;
+
+  
+}
+
+  .setlist {
+
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 127%;
+  margin-top: 120px;
+  position: absolute;
+  margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center
+
+}
+
+  .bio {
+   font-family: 'heimat_monobold';
+      font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 220px;
+    line-height: 180%;
+    text-align: justify;
+    position: absolute;
+    
+}
+
+.main {
+  width: 290px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+
+position: absolute;
+}
 
     h5 {
-    	font-size: 100px;
-    	top: -4px;
+      font-size: 125px;
+      top: -125px;
     }
 
-    img {
-    top: 32px;
-	right: 10px;
-	max-height: 50px;
+.info {
+  font-family: 'heimat_monobold_italic';
+  font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+margin-top: 830px;
+margin-bottom: 120px;
+  position: absolute;
+  margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  line-height: 120%;
+
 }
+
 .wybc {
-	position: fixed;
-  top: 50px;
-   left: 10px;
-   font-size: 16px
+  font-family: 'heimat_monobold_italic';
+  font-weight: normal;
+    font-style: normal;
+    margin-top: 90px;
+    font-size: 18px;
+    position: absolute;
+
+
+}
+.date {
+  font-family: 'heimat_monobold_italic';
+  font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+  position: fixed;
+  bottom: 80px;
+position: absolute;
+  letter-spacing: -.25px;
+    margin-left: auto;
+  margin;right: auto;
+  left: 0;
+  right: 0;
+  text-align: center
+
 }
 
-	h6{
+img{
+  right: 15px;
+  top: 230px;
+  max-height: 65px;
+}
+#icon {   
+    cursor: pointer;
+      font-family: 'heimat_monobold';
+  font-size: 55px;
+  font-weight: normal;
+  font-style: normal;
+  position: fixed;
+  bottom: 5px;
+  left: 10px;
 
-		font-size: 16px;
-		top: 365px;
-		text-align: center;
-	margin-right: 0 auto;
-	margin-left: 0 auto;
-	left: 0;
-	right: 0;
+}
 
-	}
+#icon-active {
+    
+    cursor: pointer;
+      font-family: 'heimat_monobold';
+  font-size: 62.15px;
+  font-weight: normal;
+  font-style: normal;
+  position: fixed;
+  bottom: 0px;
+  left: 10px;
+  color: lime;
+  z-index: -1
   }
 
+h1 {
+    left: 10px;
+    margin-top: -5px;
+  }
+
+  h2 {
+    right:10px;
+    bottom: -30px;
+  }
+
+  
+}
