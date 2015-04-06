@@ -1,4 +1,4 @@
-		$(function () {
+ 		$(function () {
 			var austDay = new Date();
 			austDay = new Date(austDay.getFullYear() + 0, 4-1, 10, 20, 0);
 			$('#defaultCountdown').countdown({until: austDay});
@@ -13,6 +13,8 @@
 			$("h2").delay(2000).fadeIn(500);
 			$("h5").delay(2500).fadeIn(500);
 
+			});
+
 
 			$('.hover').bind('touchstart touchend', function(e) {
 				e.preventDefault();
@@ -21,7 +23,7 @@
 			
 
 		
-			});
+			
 
 
 
