@@ -1,5 +1,5 @@
 h1 {
-  font-family: 'kaasregular';
+	font-family: 'kaasregular';
   font-size: 45px;
   font-weight: normal;
   font-style: normal;
@@ -20,7 +20,7 @@ h1 {
 }
 
   h2 {
-  font-family: 'kaasregular';
+	font-family: 'kaasregular';
   font-size: 45px;
   font-weight: normal;
   font-style: normal;
@@ -44,15 +44,15 @@ h1 {
 }
 
 h3 {
-  font-family: 'kaasregular';
-  font-size: 375px;
-  font-weight: normal;
-  font-style: normal;
-  position: fixed;
-  letter-spacing: 0px;
-    letter-spacing: 0px;
-  right: 895px;
-  bottom: -410.25px;
+	font-family: 'kaasregular';
+	font-size: 375px;
+	font-weight: normal;
+	font-style: normal;
+	position: fixed;
+	letter-spacing: 0px;
+		letter-spacing: 0px;
+	right: 895px;
+	bottom: -410.25px;
   color: white;
 -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
@@ -68,15 +68,15 @@ z-index: -1
 }
 
 h4 {
-  font-family: 'kaasregular';
-  font-size: 375px;
-  font-weight: normal;
-  font-style: normal;
-  position: fixed;
+	font-family: 'kaasregular';
+	font-size: 375px;
+	font-weight: normal;
+	font-style: normal;
+	position: fixed;
 
-  right: 22px;
-  bottom: -534.25px;
-  color: white;
+	right: 22px;
+	bottom: -534.25px;
+	color: white;
 -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite; 
@@ -90,8 +90,8 @@ z-index: -1
 }
 
 .wybc {
-  font-family: 'heimat_monobold_italic';
-  font-weight: normal;
+	font-family: 'heimat_monobold_italic';
+	font-weight: normal;
     font-style: normal;
     font-size: 22px;
 margin-top: 43px;
@@ -138,20 +138,20 @@ margin-top: 43px;
 
 h5 {
 
-  font-family: 'kaasregular';
-  font-size: 375px;
-  font-weight: normal;
-  font-style: normal;
-  position: fixed;
-  letter-spacing: 0px;
-  text-align: center;
-  margin-right: 0 auto;
-  margin-left: 0 auto;
-  left: 0;
-  right: 0;
-  bottom: -472.75px;
-  color: white;
-  z-index: -1 
+	font-family: 'kaasregular';
+	font-size: 375px;
+	font-weight: normal;
+	font-style: normal;
+	position: fixed;
+	letter-spacing: 0px;
+	text-align: center;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+	left: 0;
+	right: 0;
+	bottom: -472.75px;
+	color: white;
+	z-index: -1	
 }
 
 h6 {
@@ -332,12 +332,12 @@ position: fixed;
     100% { opacity: 1; }}
 
 img {
-  max-height: 100px;
-  position: fixed;
-  top: 238px;
-  right: 60px;
+	max-height: 100px;
+	position: fixed;
+	top: 238px;
+	right: 60px;
 
-  -webkit-animation-name: flash;
+	-webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
      -moz-animation-name: flash;
@@ -350,8 +350,8 @@ img {
 }
 
 .fling{
-  overflow: hidden;
-    display: inline-block;
+	overflow: hidden;
+  	display: inline-block;
 }
 
 a:link {
@@ -385,7 +385,7 @@ a.two:active {
 }
 
 body {
-  background: lime;
+	background: lime;
 
 }
 
@@ -423,7 +423,7 @@ body {
       font-weight: normal;
     font-style: normal;
     font-size: 18px;
-    margin-top: 230px;
+    margin-top: 223px;
     line-height: 180%;
     text-align: justify;
     
@@ -544,7 +544,7 @@ img{
       font-weight: normal;
     font-style: normal;
     font-size: 18px;
-    margin-top: 267px;
+    margin-top: 270px;
     line-height: 180%;
     text-align: justify;
     
