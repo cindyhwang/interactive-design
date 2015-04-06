@@ -682,7 +682,7 @@ img{
   margin-left: 0;
   margin-right: 0;
   text-align: center;
-top: 600px;
+top: 575px;
   letter-spacing: 2px
 }
 
@@ -695,7 +695,7 @@ top: 600px;
   margin-left: 0;
   margin-right: 0;
   text-align: center;
-  top: 625px;
+  top: 600px;
   letter-spacing: -.25px;
 
   
@@ -747,7 +747,7 @@ position: absolute;
   font-weight: normal;
     font-style: normal;
     font-size: 16px;
-margin-top: 725px;
+margin-top: 700px;
 margin-bottom: 120px;
   position: absolute;
   margin-left: auto;
