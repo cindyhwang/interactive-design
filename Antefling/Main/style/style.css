@@ -351,7 +351,7 @@ body {
 h5 {
 
   
-  bottom: -475px;
+  top: -565px;
 
 }
      
@@ -402,7 +402,7 @@ h5 {
 
     h5 {
       font-size: 300px;
-      top: -260px;
+      top: -265px;
     }
 
 .info {
@@ -411,7 +411,7 @@ h5 {
     font-style: normal;
     font-size: 16px;
     text-align: left;
-    margin-top: 261px;
+    margin-top: 263px;
     line-height: 120%;
     margin-left: 15px;
     position: fixed

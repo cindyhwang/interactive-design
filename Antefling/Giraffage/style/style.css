@@ -412,7 +412,7 @@ body {
     font-style: normal;
     font-size: 16px;
     text-align: left;
-    margin-top: 142px;
+    margin-top: 145px;
     line-height: 120%;
     margin-left: 49px;
     position: fixed
@@ -464,6 +464,10 @@ body {
 
 position: fixed;
 }
+
+h5 {
+  top: -565px;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -492,7 +496,7 @@ position: fixed;
 
     h5 {
       font-size: 300px;
-      top: -270px;
+      top: -265px;
     }
 
 .info {
@@ -501,7 +505,7 @@ position: fixed;
     font-style: normal;
     font-size: 16px;
     text-align: left;
-    margin-top: 255px;
+    margin-top: 263px;
     line-height: 120%;
     margin-left: 15px;
     position: fixed
