@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="fonts/Heimat-Mono-Italic/stylesheet.css" type="text/css" charset="utf-8" />
 		<link rel="icon" type="image/png" href="https://wybc.com/wp-content/themes/WYBC 2013 May/_/img/yalegoat.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		   <script type="text/javascript" src="js/jquery.plugin.js"></script> 
 		<script type="text/javascript" src="js/jquery.countdown.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
@@ -20,6 +20,30 @@
 	</head>
 
 	<body>
+
+		<audio id="Feels">
+		  <source src="music/Feels.ogg" type="audio/ogg">
+		  <source src="music/Feels.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+		</audio>
+
+		<audio id="Townie">
+		  <source src="music/Townie.ogg" type="audio/ogg">
+		  <source src="music/Townie.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+		</audio>
+
+		<audio id="Pains">
+		  <source src="music/Pains.ogg" type="audio/ogg">
+		  <source src="music/Pains.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+		</audio>
+
+		<audio id="Laid_Black">
+		  <source src="music/Laid_Black.ogg" type="audio/ogg">
+		  <source src="music/Laid_Black.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+		</audio>
 
 		<div id="defaultCountdown"></div>
 
@@ -36,7 +60,19 @@
 			<div class="wybc">wybc yale radio presents</div>
 	
 			<div style="display:none" class="setlist">
-				<a href="http://cindyhwang.github.io/interactive-design//Antefling/Giraffage/index.html">giraffage</a><br><a class="two" href="http://cindyhwang.github.io/interactive-design//Antefling/Mitski/index.html">mitski</a><br><a class="two" href="http://cindyhwang.github.io/interactive-design//Antefling/SilkRhodes/index.html">silk rhodes</a><br><a href="http://cindyhwang.github.io/interactive-design//Antefling/Allies/index.html">allies</a></div>
+				<div class="giraffage">
+					<a href="http://cindyhwang.github.io/interactive-design//Antefling/Giraffage/index.html">giraffage</a><br>
+				</div>
+				<div class="mitski">
+					<a class="two" href="http://cindyhwang.github.io/interactive-design//Antefling/Mitski/index.html">mitski</a><br>
+				</div>
+				<div class="silk-rhodes">
+					<a class="two" href="http://cindyhwang.github.io/interactive-design//Antefling/SilkRhodes/index.html">silk rhodes</a><br>
+				</div>
+				<div class="allies">
+					<a href="http://cindyhwang.github.io/interactive-design//Antefling/Allies/index.html">allies</a>
+				</div>
+			</div>
 			<div class="date">friday, april 03 at toad's</div>
 		</div>
 			
@@ -63,7 +99,49 @@
        </div>
    </div>
 
+<script>
+		var soundControl = document.getElementById("Feels"); 
 
+			$('.giraffage').hover(function() {
+				Feels.play();
+				},
+			function(){
+				Feels.pause();
+			});
+		
+		var soundControl = document.getElementById("Townie"); 
+
+			$('.mitski').hover(function() {
+				Townie.play();
+				},
+			function(){
+				Townie.pause();
+			});
+
+		var soundControl = document.getElementById("Pains"); 
+
+			$('.silk-rhodes').hover(function() {
+				Pains.play();
+				},
+			function(){
+				Pains.pause();
+			});
+
+		var soundControl = document.getElementById("Laid_Black"); 
+
+			$('.allies').hover(function() {
+				Laid_Black.play();
+				},
+			function(){
+				Laid_Black.pause();
+			});
+
+				    	
+
+
+					
+					
+</script>
 	
 
 	</body>
