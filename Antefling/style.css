@@ -87,7 +87,7 @@ h4 {
 }
 
 .wybc {
-	font-family: 'heimat_monobold';
+	font-family: 'heimat_monobold_italic';
 	font-weight: normal;
     font-style: normal;
     font-size: 19.5px;
@@ -127,7 +127,7 @@ h5 {
 
 h6 {
 
-	font-family: 'heimat_monobold';
+	font-family: 'heimat_monobold_italic';
 	font-weight: normal;
     font-style: normal;
     font-size: 19.5px;
@@ -190,8 +190,8 @@ a:link {
 	text-decoration: none;
 	  border: 2px solid;
   color: black;
-  padding-left: 6px;
-   padding-right: 6px;
+  padding-left: 5px;
+   padding-right: 7.5px;
  padding-bottom: 3px;
 }
 
@@ -296,7 +296,7 @@ h6 {
 	
 }
 .wybc {
-	font-family: 'heimat_monobold';
+	font-family: 'heimat_monobold_italic';
 	font-weight: normal;
     font-style: normal;
     font-size: 18px;
@@ -348,7 +348,7 @@ right: 25px;
 max-height: 75px;
 }
 .wybc {
-font-family: 'heimat_monobold';
+font-family: 'heimat_monobold_italic';
 font-weight: normal;
     font-style: normal;
     font-size: 18px;
@@ -395,7 +395,7 @@ font-size: 18px;
 	max-height: 75px;
 }
 .wybc {
-	font-family: 'heimat_monobold';
+	font-family: 'heimat_monobold_italic';
 	font-weight: normal;
     font-style: normal;
     font-size: 18px;
@@ -408,8 +408,8 @@ font-size: 18px;
 }
 	h6{
 
-		font-size: 24px;
-		top: 575px;
+		font-size: 18px;
+		top: 615px;
 		text-align: center;
 	margin-right: 0 auto;
 	margin-left: 0 auto;
@@ -452,7 +452,7 @@ font-size: 18px;
 	max-height: 50px;
 }
 .wybc {
-	font-family: 'heimat_monobold';
+	font-family: 'heimat_monobold_italic';
 	font-weight: normal;
     font-style: normal;
     font-size: 18px;
