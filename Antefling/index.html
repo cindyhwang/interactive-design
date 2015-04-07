@@ -3,7 +3,6 @@
 	
 	<head>
 		<title>WYBC ANTE-FLING 2015</title>
-		<link rel="stylesheet" href="normalize.css">
  		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="Kaas/stylesheet.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" href="Heimat-Mono/stylesheet.css" type="text/css" charset="utf-8" />
@@ -16,7 +15,11 @@
 
 	<body>
 
-		
+		<audio id="Button">
+		  <source src="Button.ogg" type="audio/ogg">
+		  <source src="Button.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+		</audio>
 		<h1 style="display:none">AN</h1><h2 style="display:none">TE-</h2>
 		
 			<h3 style="display:none">F</h3><h4 style="display:none">LING</h4></div>
@@ -37,6 +40,14 @@
 			$("h4").delay(3000).fadeIn(500);
 			$("h5").delay(3500).fadeIn(100);
 			$("h6").delay(4000).fadeIn(500);
+			});
+
+
+		var soundControl = document.getElementById("Button"); 
+
+			$('h6').click(function() {
+				Button.play();
+		
 			});
 		</script>
 
