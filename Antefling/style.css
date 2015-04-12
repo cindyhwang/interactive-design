@@ -138,6 +138,63 @@ position: fixed;
 
 
 
+
+
+img {
+	max-height: 100px;
+	position: fixed;
+	top: 238px;
+	right: 60px;
+
+	-webkit-animation-name: flash;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-name: flash;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-iteration-count: infinite;
+      animation-name: flash;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+
+
+
+.fling{
+	overflow: hidden;
+  	display: inline-block;
+}
+
+a:link {
+	text-decoration: none;
+	  border: 2px solid;
+  color: black;
+  padding-left: 5px;
+   padding-right: 7.5px;
+ padding-bottom: 3px;
+ -webkit-animation-name: blink;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+   -moz-animation-name: blink;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-iteration-count: infinite;
+  animation-name: blink;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+a:visited {
+    color: black;
+}
+a:hover {
+    background-color: white;
+    font-size: 113%
+}
+a:active {
+    text-decoration: none;
+    background-color: white;
+}
+
 @-webkit-keyframes flash {
       0% { opacity: .25; }
      30% { opacity: .25; }
@@ -163,49 +220,30 @@ position: fixed;
    69% { opacity: 1; }
     100% { opacity: 1; }}
 
-img {
-	max-height: 100px;
-	position: fixed;
-	top: 238px;
-	right: 60px;
 
-	-webkit-animation-name: flash;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-iteration-count: infinite;
-     -moz-animation-name: flash;
-  -moz-animation-duration: 1.5s;
-  -moz-animation-iteration-count: infinite;
-      animation-name: flash;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
+    @-webkit-keyframes blink {
+      0% { background-color: lime; }
+      47% { background-color: lime; }
+    53% { background-color: white; }
+    100% { background-color: white; }
 
-}
+  }
 
-.fling{
-	overflow: hidden;
-  	display: inline-block;
-}
+      @-moz-webkit-keyframes blink {
+       0% { background-color: lime; }
+      47% { background-color: lime; }
+    53% { background-color: white; }
+    100% { background-color: white; }
 
-a:link {
-	text-decoration: none;
-	  border: 2px solid;
-  color: black;
-  padding-left: 5px;
-   padding-right: 7.5px;
- padding-bottom: 3px;
-}
+  }
 
-a:visited {
-    color: black;
-}
-a:hover {
-    background-color: white;
-    font-size: 113%
-}
-a:active {
-    text-decoration: none;
-    background-color: white;
-}
+      @keyframes blink {
+      0% { background-color: lime; }
+      47% { background-color: lime; }
+    53% { background-color: white; }
+    100% { background-color: white; }
+
+  }
 
 body {
 	background: lime;
