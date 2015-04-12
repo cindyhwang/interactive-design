@@ -1,9 +1,4 @@
- 		$(function () {
-			var austDay = new Date();
-			austDay = new Date(austDay.getFullYear() + 0, 4-1, 03, 20, 0);
-			$('#defaultCountdown').countdown({until: austDay});
-			$('#year').text(austDay.getFullYear());
-			});
+
 
 
 			$(document).ready(function(){
