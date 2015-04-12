@@ -200,6 +200,7 @@ a:visited {
 }
 a:hover {
     background-color: white;
+    font-size: 113%
 }
 a:active {
     text-decoration: none;
