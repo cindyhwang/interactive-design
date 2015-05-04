@@ -294,7 +294,7 @@ body {
   max-height: 395px;
   top: 58px;
   left: 530px;
-  z-index: 0;
+  z-index: 2;
   -webkit-animation-name: flash;
   -webkit-animation-duration: 3.096s;
   -webkit-animation-iteration-count: infinite;
@@ -311,7 +311,7 @@ body {
   max-height: 397px;
   top: 59px;
   left: 605px;
-  z-index: 0;
+  z-index: 1;
   -webkit-animation-name: flash;
   -webkit-animation-duration: 3.096s;
   -webkit-animation-iteration-count: infinite;
@@ -328,7 +328,7 @@ body {
   max-height: 397px;
   top: 59px;
   left: 665px;
-  z-index: 0;
+  z-index: 1;
   -webkit-animation-name: flash;
   -webkit-animation-duration: 3.096s;
   -webkit-animation-iteration-count: infinite;
@@ -345,7 +345,7 @@ body {
   max-height: 96px;
   top: 306px;
   right: 58px;
-  z-index: 0;
+  z-index: 1;
   -webkit-animation-name: flash;
   -webkit-animation-duration: 3.096s;
   -webkit-animation-iteration-count: infinite;
