@@ -197,12 +197,13 @@ body {
   font-size: 18px;
   font-weight: bold;
   display: inline-block;
-  z-index: 50;
+  text-align: left
 }
 
 .bids7 {
   font-size: 13px;
   display: inline-block;
+  text-align: left
 
 }
 
@@ -210,6 +211,7 @@ body {
   font-size: 13px;
   color: #DD1E31;
   display: inline-block;
+  text-align: left
 }
 
 .container-1 {
@@ -294,13 +296,13 @@ body {
   top: 58px;
   left: 530px;
   -webkit-animation-name: flash;
-  -webkit-animation-duration: 3.096s;
+  -webkit-animation-duration: 3.088s;
   -webkit-animation-iteration-count: infinite;
    -moz-animation-name: flash;
-  -moz-animation-duration: 3.096s;
+  -moz-animation-duration: 3.088s;
   -moz-animation-iteration-count: infinite;
   animation-name: flash;
-  animation-duration: 3.096s;
+  animation-duration: 3.088s;
   animation-iteration-count: infinite;
 }
 
@@ -310,13 +312,13 @@ body {
   top: 59px;
   left: 605px;
   -webkit-animation-name: flash;
-  -webkit-animation-duration: 3.096s;
+  -webkit-animation-duration: 3.088s;
   -webkit-animation-iteration-count: infinite;
    -moz-animation-name: flash;
-  -moz-animation-duration: 3.096s;
+  -moz-animation-duration: 3.088s;
   -moz-animation-iteration-count: infinite;
   animation-name: flash;
-  animation-duration: 3.096s;
+  animation-duration: 3.088s;
   animation-iteration-count: infinite;
 }
 
@@ -326,13 +328,13 @@ body {
   top: 59px;
   left: 665px;
   -webkit-animation-name: flash;
-  -webkit-animation-duration: 3.096s;
+  -webkit-animation-duration: 3.088s;
   -webkit-animation-iteration-count: infinite;
    -moz-animation-name: flash;
-  -moz-animation-duration: 3.096s;
+  -moz-animation-duration: 3.088s;
   -moz-animation-iteration-count: infinite;
   animation-name: flash;
-  animation-duration: 3.096s;
+  animation-duration: 3.088s;
   animation-iteration-count: infinite;
 }
 
@@ -342,37 +344,34 @@ body {
   top: 306px;
   right: 58px;
   -webkit-animation-name: flash;
-  -webkit-animation-duration: 3.096s;
+  -webkit-animation-duration: 3.088s;
   -webkit-animation-iteration-count: infinite;
    -moz-animation-name: flash;
-  -moz-animation-duration: 3.096s;
+  -moz-animation-duration: 3.088s;
   -moz-animation-iteration-count: infinite;
   animation-name: flash;
-  animation-duration: 3.096s;
+  animation-duration: 3.088s;
   animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes flash {
-      0% { opacity: .25; }
-      12.5% { opacity: 1; }
+      0% { opacity: 0; }
+      25% { opacity: 1; }
       50% { opacity: 0; }
     100% { opacity: 0; }}
 
 @-moz-keyframes flash {
-      0% { opacity: .25; }
-      12.5% { opacity: 1; }
+      0% { opacity: 0; }
+      25% { opacity: 1; }
       50% { opacity: 0; }
-    100% { opacity: 0; }}
-}
+      100% { opacity: 0; }}
+
 
 @keyframes flash {
-      0% { opacity: .25; }
-      12.5% { opacity: 1; }
+    0% { opacity: 0; }
+      25% { opacity: 1; }
       50% { opacity: 0; }
     100% { opacity: 0; }}
-
-
-
 
 #background_cycler{
 	padding:0;
