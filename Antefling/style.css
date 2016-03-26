@@ -1,11 +1,11 @@
 h1 {
 	font-family: 'kaasregular';
-	font-size: 375px;
+	font-size: 440px;
 	font-weight: normal;
 	font-style: normal;
 	position: fixed;
 	letter-spacing: 0px;
-	margin-top: -55px;
+	margin-top: -70px;
 	left: 22px;
  -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
@@ -20,13 +20,13 @@ h1 {
 
   h2 {
 	font-family: 'kaasregular';
-	font-size: 375px;
+	font-size: 440px;
 	font-weight: normal;
 	font-style: normal;
 	position: fixed;
 	letter-spacing: 0px;
-	margin-top: -55px;
-	left: 545px;
+	margin-top: -70px;
+	left: 635px;
 -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
@@ -36,21 +36,18 @@ h1 {
   animation-name: flash;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
-
-
-
 }
 
 h3 {
 	font-family: 'kaasregular';
-	font-size: 375px;
+	font-size: 440px;
 	font-weight: normal;
 	font-style: normal;
 	position: fixed;
 	letter-spacing: 0px;
 		letter-spacing: 0px;
-	right: 895px;
-	bottom: -410.25px;
+	right: 1050px;
+	bottom: -475px;
 -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite; 
@@ -66,13 +63,13 @@ h3 {
 
 h4 {
 	font-family: 'kaasregular';
-	font-size: 375px;
+	font-size: 440px;
 	font-weight: normal;
 	font-style: normal;
 	position: fixed;
 
-	right: 22px;
-	bottom: -534.25px;
+	right: 25px;
+	bottom: -620px;
 	
 -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
@@ -90,22 +87,19 @@ h4 {
 	font-family: 'heimat_monobold_italic';
 	font-weight: normal;
     font-style: normal;
-    font-size: 19.5px;
+    font-size: 23.5px;
   transform: rotate(270deg);
     -ms-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
   -webkit-transform: rotate(270deg);
   position: fixed;
-  bottom: 177px;
-   left: -74px;
-   
-
+  bottom: 210px;
+   left: -94px;
 }
 
 h5 {
-
 	font-family: 'kaasregular';
-	font-size: 375px;
+	font-size: 440px;
 	font-weight: normal;
 	font-style: normal;
 	position: fixed;
@@ -115,35 +109,26 @@ h5 {
 	margin-left: 0 auto;
 	left: 0;
 	right: 0;
-	bottom: -472.75px;
+	bottom: -550px;
 	color: white;
-	z-index: -1
-
-
-
-	
+	z-index: -1	
 }
 
 
 h6 {
-
 	font-family: 'heimat_monobold_italic';
 	font-weight: normal;
-    font-style: normal;
-    font-size: 19.5px;
-position: fixed;
-  top: 13.05px;
+  font-style: normal;
+  font-size: 23.5px;
+  position: fixed;
+  top: 6px;
   right: 27px;
 }
 
-
-
-
-
 img {
-	max-height: 100px;
+	max-height: 105px;
 	position: fixed;
-	top: 238px;
+	top: 280px;
 	right: 60px;
 
 	-webkit-animation-name: flash;
@@ -170,8 +155,10 @@ a:link {
 	  border: 2px solid;
   color: black;
   padding-left: 5px;
-   padding-right: 7.5px;
+   padding-right: 9.5px;
  padding-bottom: 3px;
+}
+/*
  -webkit-animation-name: blink;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
@@ -182,7 +169,7 @@ a:link {
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
 }
-
+*/
 a:visited {
     color: black;
 }
@@ -251,8 +238,48 @@ body {
 
 }
 
+@media screen and (max-width: 1280px) {
+     h1 {
+      font-size: 375px;
+      margin-top: -55px;
+      left: 22px;
+    }
+       h2 {
+      font-size: 375px;
+      margin-top: -55px;
+      left: 545px;
+    }
+      h3 {
+      font-size: 375px;
+      bottom: -410px;
+      right: 895px;
+    }
+       h4 {
+      font-size: 375px;
+      bottom: -534.25px;
+      right: 22px;
+    }
+    h5 {
+      font-size: 375px;
+      bottom: -472.75px;
+ }
 
+  img {
+  top: 238px;
+  right: 60px;
+}
 
+.wybc {
+  font-size: 19.5px;
+  bottom: 177px;
+   left: -74px;
+}
+
+h6 {
+  font-size: 19.5px;
+  top: 13.05px;
+}
+}
 
 @media screen and (max-width: 1152px) {
      h1 {
@@ -295,7 +322,7 @@ h6 {
 	top: 16px;
 }
 
-  }
+  
 
     @media screen and (max-width: 1024px) {
      h1 {

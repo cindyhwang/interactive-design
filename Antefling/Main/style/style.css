@@ -1,13 +1,14 @@
+/* Main */
+
 h1 {
 	font-family: 'kaasregular';
-	font-size: 45px;
+	font-size: 50px;
 	font-weight: normal;
 	font-style: normal;
 	position: fixed;
 	letter-spacing: 0px;
 	margin-top: 8px;
 	left: 25px;
-
  -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
@@ -22,14 +23,13 @@ h1 {
 
   h2 {
 	font-family: 'kaasregular';
-	font-size: 45px;
+	font-size: 50px;
 	font-weight: normal;
 	font-style: normal;
 	position: fixed;
 	letter-spacing: 0px;
-	bottom: -19px;
+	bottom: -24px;
 	right: 28px;
- 
 -webkit-animation-name: flash;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
@@ -40,86 +40,35 @@ h1 {
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
   z-index: -1
-
-
-}
-
-h3 {
-	font-family: 'kaasregular';
-	font-size: 375px;
-	font-weight: normal;
-	font-style: normal;
-	position: fixed;
-	letter-spacing: 0px;
-		letter-spacing: 0px;
-	right: 895px;
-	bottom: -410.25px;
-  color: white;
--webkit-animation-name: flash;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-iteration-count: infinite; 
-     -moz-animation-name: flash;
-  -moz-animation-duration: 1.5s;
-  -moz-animation-iteration-count: infinite;
-    animation-name: flash;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-z-index: -1
-
-}
-
-h4 {
-	font-family: 'kaasregular';
-	font-size: 375px;
-	font-weight: normal;
-	font-style: normal;
-	position: fixed;
-
-	right: 22px;
-	bottom: -534.25px;
-	color: white;
--webkit-animation-name: flash;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-iteration-count: infinite; 
-     -moz-animation-name: flash;
-  -moz-animation-duration: 1.5s;
-  -moz-animation-iteration-count: infinite;
-    animation-name: flash;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-z-index: -1
 }
 
 .wybc {
 	font-family: 'heimat_monobold_italic';
 	font-weight: normal;
-    font-style: normal;
-    font-size: 22px;
-margin-top: 43px;
+  font-style: normal;
+  font-size: 23.5px;
+  margin-top: 43px;
   position: fixed;
   margin-left: auto;
-  margin;right: auto;
+  margin-right: auto;
   left: 0;
   right: 0;
   text-align: center;
-
 }
 
 .date {
   font-family: 'heimat_monobold_italic';
   font-weight: normal;
-    font-style: normal;
-    font-size: 22px;
+  font-style: normal;
+  font-size: 23.5px;
   position: fixed;
-  bottom: 55px;
-
+  bottom: 57px;
   letter-spacing: -.25px;
-    margin-left: auto;
-  margin;right: auto;
+  margin-left: auto;
+  margin-right: auto;
   left: 0;
   right: 0;
   text-align: center
-
 }
 
 .free {
@@ -134,108 +83,97 @@ margin-top: 43px;
   position: fixed;
   bottom: 300px;
    left: -198px;
-
 }
 
 h5 {
-
-	font-family: 'kaasregular';
-	font-size: 375px;
-	font-weight: normal;
-	font-style: normal;
-	position: fixed;
-	letter-spacing: 0px;
-	text-align: center;
-	margin-right: 0 auto;
-	margin-left: 0 auto;
-	left: 0;
-	right: 0;
-	bottom: -472.75px;
-	color: white;
-	z-index: -1	
+  font-family: 'kaasregular';
+  font-size: 440px;
+  font-weight: normal;
+  font-style: normal;
+  position: fixed;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: -550px;
+  color: white;
+  z-index: -1 
 }
 
 h6 {
-
   font-family: 'heimat_monobold_italic';
   font-weight: normal;
-    font-style: normal;
-    font-size: 19.5px;
-position: fixed;
-  top: -15px;
-    right: 27px;
-}
+  font-style: normal;
+  font-size: 21px;
+  position: fixed;
+  top: -19px;
+  right: 27px;
+  }
 
 .setlist {
-
-  font-size: 90px;
+  font-size: 106px;
   font-weight: bold;
-  line-height: 127%;
-  margin-top: 115px;
+  line-height: 125.5%;
+  margin-top: 120px;
   position: fixed;
   margin-left: auto;
-  margin;right: auto;
+  margin-right: auto;
   left: 0;
   right: 0;
-  text-align: center
-
+  text-align: center;
 }
-
-
 
 .main {
   width: 550px;
   margin: 0 auto;
-
 }
 
 .info {
   font-family: 'heimat_monobold_italic';
-      font-weight: normal;
-    font-style: normal;
-    font-size: 16px;
-    text-align: left;
-    margin-top: 160px;
-    line-height: 120%;
-    margin-left: 49px;
-    position: fixed
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  text-align: left;
+  margin-top: 179px;
+  line-height: 127.5%;
+  margin-left: 49px;
+  position: fixed
 }
-
 
 .tickets {
    font-family: 'heimat_monobold_italic';
-   width: 280px;
-   line-height: 120%;
- margin-left: -3px;
-  font-size: 16px;
+   width: 300px;
+   line-height: 134%;
+ margin-left: 6px;
+  font-size: 18px;
  margin-top: 24px;
  text-align: right;
  z-index: 1
- 
 }
 
 #icon {   
-    cursor: pointer;
-      font-family: 'heimat_monobold';
-  font-size: 55px;
+  cursor: pointer;
+  font-family: 'heimat_monobold';
+  font-size: 60px;
   font-weight: normal;
   font-style: normal;
   position: fixed;
-  bottom: 16px;
-  left: 23px;
-
+  bottom: 14px;
+  left: 21px;
 }
 
 #icon-active {
     
-    cursor: pointer;
-      font-family: 'heimat_monobold';
-  font-size: 62.15px;
+  cursor: pointer;
+  font-family: 'heimat_monobold';
+  font-size: 67.8px;
   font-weight: normal;
   font-style: normal;
   position: fixed;
   bottom: 10px;
-  left: 23px;
+  left: 21px;
   color: lime;
   z-index: -1
 
@@ -246,8 +184,8 @@ position: fixed;
     cursor: default;
     bottom: 0;
    left: 0;
-    width: 305px;
-    height: 127px;
+    width: 333px;
+    height: 145px;
     background: white;
     visibility: hidden;
 
@@ -263,9 +201,9 @@ position: fixed;
 }
 
 img {
-  max-height: 100px;
+  max-height: 105px;
   position: fixed;
-  top: 238px;
+  top: 280px;
   right: 60px;
 
   -webkit-animation-name: flash;
@@ -277,10 +215,9 @@ img {
       animation-name: flash;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
-
 }
 
-.fling{
+.fling {
   overflow: hidden;
     display: inline-block;
 }
@@ -298,11 +235,9 @@ a:hover {
     font-size: 113%;
 }
 
-
 a:active {
     text-decoration: none;
     color: white;
-
 }
 
 a.two:hover {
@@ -312,7 +247,6 @@ a.two:hover {
 a.two:active {
     text-decoration: none;
     color: lime;
-
 }
 
 a.three:link {
@@ -322,6 +256,7 @@ a.three:link {
   padding-left: 6px;
    padding-right: 7px;
  padding-bottom: 3px;
+ /*
   -webkit-animation-name: blink;
   -webkit-animation-duration: 1.5s;
   -webkit-animation-iteration-count: infinite;
@@ -331,6 +266,7 @@ a.three:link {
   animation-name: blink;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
+  */
 }
 
 a.three:visited {
@@ -374,7 +310,6 @@ a.three:active {
       47% { background-color: lime; }
     53% { background-color: white; }
     100% { background-color: white; }
-
   }
 
       @-moz-webkit-keyframes blink {
@@ -393,37 +328,119 @@ a.three:active {
 
   }
 
-
-
 body {
 	background: lime;
   cursor: url('cursor.png'), auto;  
+}
+
+@media screen and (max-width: 1280px) {
+
+  h1 {
+    font-size: 45px;
+    margin-top: 8px;
+    left: 25px;
+  }
+
+  h2 {
+    font-size: 45px;
+    bottom: -19px;
+    right: 28px;
+  } 
+
+  h5 {
+    font-size: 375px;
+    bottom: -472.75px;  
+    }
+
+  .wybc {
+    font-size: 22px;
+    margin-top: 43px;
+  }
+
+  .date {
+    font-size: 22px;
+    bottom: 55px;
+  }
+
+  .free {
+    font-size: 16px;
+    bottom: 300px;
+    left: -198px;
+  }
+
+  h6 {
+    font-size: 19.5px;
+    top: -15px;
+    right: 27px;
+  }
+
+  .setlist {
+    font-size: 90px;
+    line-height: 127%;
+    margin-top: 115px;
+  }
+
+  .main {
+    width: 550px;
+    margin: 0 auto;
+  }
+
+  .info {
+    font-size: 16px;
+    margin-top: 160px;
+    line-height: 120%;
+    margin-left: 49px;
+  }
+
+  .tickets {
+    width: 280px;
+    line-height: 120%;
+    margin-left: -3px;
+    font-size: 16px;
+    margin-top: 24px;
+  }
+
+  #icon {   
+    font-size: 55px;
+    bottom: 16px;
+    left: 23px;
+  }
+
+  #icon-active {
+    font-size: 62.15px;
+    bottom: 10px;
+    left: 23px;
+  }
+
+  #menu {
+    width: 305px;
+    height: 127px;
+  }
+
+  img {
+    top: 238px;
+    right: 60px;
+  }
 
 }
 
+@media screen and (max-width: 1024px) {
 
-    @media screen and (max-width: 1024px) {
-
-h5 {
-
-  
+h5 {  
   top: -560px;
-
 }
      
 .setlist {
-
   font-size: 90px;
   font-weight: bold;
   line-height: 127%;
   margin-top: 93px;
   position: fixed;
   margin-left: auto;
-  margin;right: auto;
+  margin-right: auto;
   left: 0;
   right: 0;
   text-align: center
-
 }
  
 .info {
@@ -436,7 +453,13 @@ h5 {
     line-height: 120%;
     margin-left: 49px;
     position: fixed
-}
+  }
+
+img {
+  max-height: 100px;
+  position: fixed;
+  top: 238px;
+  right: 60px;
 }
 
 @media screen and (max-width: 768px) {
@@ -449,7 +472,7 @@ h5 {
   margin-top: 210px;
   position: fixed;
   margin-left: auto;
-  margin;right: auto;
+  margin-right: auto;
   left: 0;
   right: 0;
   text-align: center
@@ -491,7 +514,7 @@ h5 {
 
   letter-spacing: -.25px;
     margin-left: auto;
-  margin;right: auto;
+  margin-right: auto;
   left: 0;
   right: 0;
   text-align: center
@@ -515,7 +538,7 @@ img{
   margin-top: 130px;
   position: absolute;
   margin-left: auto;
-  margin;right: auto;
+  margin-right: auto;
   left: 0;
   right: 0;
   text-align: center
@@ -536,7 +559,7 @@ margin-top: 580px;
 margin-bottom: 80px;
   position: absolute;
   margin-left: auto;
-  margin;right: auto;
+  margin-right: auto;
   left: 0;
   right: 0;
   text-align: center;
@@ -564,7 +587,7 @@ margin-bottom: 80px;
 position: absolute;
   letter-spacing: -.25px;
     margin-left: auto;
-  margin;right: auto;
+  margin-right: auto;
   left: 0;
   right: 0;
   text-align: center
@@ -598,7 +621,7 @@ img{
   margin-top: 113px;
   position: absolute;
   margin-left: auto;
-  margin;right: auto;
+  margin-right: auto;
   left: 0;
   right: 0;
   text-align: center
@@ -619,7 +642,7 @@ margin-top: 482px;
 margin-bottom: 100px;
   position: absolute;
   margin-left: auto;
-  margin;right: auto;
+  margin-right: auto;
   left: 0;
   right: 0;
   text-align: center;
@@ -647,7 +670,7 @@ margin-bottom: 100px;
 position: absolute;
   letter-spacing: -.25px;
     margin-left: auto;
-  margin;right: auto;
+  margin-right: auto;
   left: 0;
   right: 0;
   text-align: center
