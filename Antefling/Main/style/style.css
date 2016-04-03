@@ -528,11 +528,11 @@ img{
   }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 414px) {
 
   .setlist {
 
-  font-size: 70px;
+  font-size: 69px;
   font-weight: bold;
   line-height: 127%;
   margin-top: 130px;
@@ -556,7 +556,7 @@ img{
     font-style: normal;
     font-size: 16px;
 margin-top: 580px;
-margin-bottom: 80px;
+margin-bottom: 120px;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -577,13 +577,14 @@ margin-bottom: 80px;
 
 
 }
+
 .date {
   font-family: 'heimat_monobold_italic';
   font-weight: normal;
     font-style: normal;
     font-size: 18px;
   position: fixed;
-  bottom: 80px;
+  top: 495px;
 position: absolute;
   letter-spacing: -.25px;
     margin-left: auto;
@@ -615,10 +616,10 @@ img{
   }
   .setlist {
 
-  font-size: 55px;
+  font-size: 62px;
   font-weight: bold;
   line-height: 110%;
-  margin-top: 113px;
+  margin-top: 125px;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -630,7 +631,7 @@ img{
 
     h5 {
       font-size: 125px;
-      top: -52px;
+      top: -32px;
     }
 
 .info {
@@ -638,7 +639,7 @@ img{
   font-weight: normal;
     font-style: normal;
     font-size: 16px;
-margin-top: 482px;
+margin-top: 470px;
 margin-bottom: 100px;
   position: absolute;
   margin-left: auto;
@@ -650,23 +651,15 @@ margin-bottom: 100px;
 
 }
 
-.wybc {
-  font-family: 'heimat_monobold_italic';
-  font-weight: normal;
-    font-style: normal;
-    margin-top: 83px;
-    font-size: 18px;
-    position: absolute;
 
 
-}
 .date {
   font-family: 'heimat_monobold_italic';
   font-weight: normal;
     font-style: normal;
     font-size: 18px;
   position: fixed;
-  bottom: 75px;
+  top: 415px;
 position: absolute;
   letter-spacing: -.25px;
     margin-left: auto;
@@ -678,8 +671,8 @@ position: absolute;
 }
 
 img{
-  right: 10px;
-  top: 180px;
+  right: 15px;
+  top: 206px;
   max-height: 65px;
 }
 

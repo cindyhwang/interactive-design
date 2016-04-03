@@ -613,7 +613,7 @@ img{
 }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 414px) {
 .controls {
   font-size: 16px;
   position: absolute;
@@ -622,7 +622,7 @@ img{
   margin-left: 0;
   margin-right: 0;
   text-align: center;
-top: 660px;
+top: 625px;
   letter-spacing: 2px
 }
 
@@ -635,7 +635,7 @@ top: 660px;
   margin-left: 0;
   margin-right: 0;
   text-align: center;
-  top: 685px;
+  top: 650px;
   letter-spacing: -.25px;
 
   
@@ -643,7 +643,7 @@ top: 660px;
 
   .setlist {
 
-  font-size: 70px;
+  font-size: 69px;
   font-weight: bold;
   line-height: 127%;
   margin-top: 130px;
@@ -661,7 +661,7 @@ top: 660px;
       font-weight: normal;
     font-style: normal;
     font-size: 16px;
-    margin-top: 220px;
+    margin-top: 235px;
     line-height: 180%;
     text-align: justify;
     position: absolute;
@@ -673,7 +673,6 @@ top: 660px;
   margin: 0 auto;
   left: 0;
   right: 0;
-
 position: absolute;
 }
 
@@ -687,7 +686,7 @@ position: absolute;
   font-weight: normal;
     font-style: normal;
     font-size: 16px;
-margin-top: 780px;
+margin-top: 730px;
 margin-bottom: 120px;
   position: absolute;
   margin-left: auto;
@@ -744,7 +743,7 @@ img{
   margin-left: 0;
   margin-right: 0;
   text-align: center;
-top: 710px;
+top: 670px;
   letter-spacing: 2px
 }
 
@@ -757,7 +756,7 @@ top: 710px;
   margin-left: 0;
   margin-right: 0;
   text-align: center;
-  top: 735px;
+  top: 695px;
   letter-spacing: -.25px;
 
   
@@ -765,7 +764,7 @@ top: 710px;
 
   .setlist {
 
-  font-size: 70px;
+  font-size: 62px;
   font-weight: bold;
   line-height: 127%;
   margin-top: 120px;
@@ -809,8 +808,8 @@ position: absolute;
   font-weight: normal;
     font-style: normal;
     font-size: 16px;
-margin-top: 830px;
-margin-bottom: 120px;
+margin-top: 775px;
+margin-bottom: 100px;
   position: absolute;
   margin-left: auto;
   margin;right: auto;
@@ -823,9 +822,10 @@ margin-bottom: 120px;
 
 img{
   right: 15px;
-  top: 230px;
+  top: 206px;
   max-height: 65px;
 }
+
 #icon {   
     cursor: pointer;
       font-family: 'heimat_monobold';
